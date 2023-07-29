@@ -11,7 +11,6 @@ export default defineConfig({
       { text: 'About Me', link: '/about' },
       { text: 'Projects', link: '/projects' },
       { text: 'Blogs', link: '/blogs' },
-      { text: 'Examples', link: '/markdown-examples' }
     ],
     sidebar: [
       {
@@ -24,11 +23,11 @@ export default defineConfig({
     ],
     socialLinks: [
       { icon: 'linkedin', link: 'https://www.linkedin.com/in/simonpangan/' },
-      { icon: 'github', link: 'https://github.com/simonpangan' },
+      { icon: 'github', link: 'https://github.com/vuejs/vitepress' },
     ]
   },
-  // head: [
-    // ['link', { rel: 'icon', href: '/assets/icons/favicon-16x16.png', sizes: '16x16', type: 'image/png' }],
-    // ['link', { rel: 'icon', href: '/assets/icons/favicon-32x32.png', sizes: '32x32', type: 'image/png' }],
-  // ],
+  head: [
+    ['link', { rel: 'icon', href: '/assets/icons/favicon-16x16.png', sizes: '16x16', type: 'image/png' }],
+    ['link', { rel: 'icon', href: '/assets/icons/favicon-32x32.png', sizes: '32x32', type: 'image/png' }],
+  ],
 })
