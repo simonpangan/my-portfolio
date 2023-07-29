@@ -1,13 +1,25 @@
+
 @font-face {
-	font-family: 'Quicksand var';
-	src: url(quicksand-var.ttf);
+  font-family: "Quicksand var";
+  src: url(quicksand-var.ttf);
 }
 
- @font-face {
-	font-family: "quicksand";
-	src: url(quicksand.ttf);
+@font-face {
+  font-family: "quicksand";
+  src: url(quicksand.ttf);
 }
 
 :root {
-	--vp-font-family-base: 'Quicksand var', "quicksand", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Helvetica, Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-} 
+  --vp-font-family-base: "Quicksand var", "quicksand", ui-sans-serif, system-ui,
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue",
+    Helvetica, Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+:root {
+	--vp-c-brand: #A2A378;
+  --vp-c-brand-light: #B5B68E;
+  --vp-c-brand-lighter: #C9CABE;
+  --vp-c-brand-dark: #8F905F;
+  --vp-c-brand-darker: #6D6E46;
+}
