@@ -3,15 +3,15 @@
 layout: home
 
 hero:
-  name: "SimonPangan"
-  text: "Simon Pangan portfolio"
-  tagline: My great project tagline
+  name: "VitePress"
+  text: "Vite & Vue Powered Static Site Generator"
+  tagline: Simple, powerful, and fast. Meet the modern SSG framework you've always wanted.
   actions:
     - theme: brand
-      text: Markdown Examples
+      text: Get Started
       link: /markdown-examples
     - theme: alt
-      text: API Examples
+      text: View on github
       link: /api-examples
 
 features:
