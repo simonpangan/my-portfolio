@@ -9,9 +9,14 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: 'About Me', link: '/about' },
-      { text: 'Projects', link: '/projects' },
-      { text: 'Blogs', link: '/blogs' },
-      { text: 'Examples', link: '/markdown-examples' }
+      {
+        text: 'Contents',
+        items: [
+          { text: 'Blogs', link: '/blogs' },
+          { text: 'Projects', link: '/projects' },  
+          { text: 'Articles', link: '/articles' },
+        ]
+      },
     ],
     sidebar: [
       {
