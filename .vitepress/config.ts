@@ -5,7 +5,7 @@ export default defineConfig({
   title: "Simon Pangan",
   description: "Simon Pangan portfolio",
   themeConfig: {
-    siteTitle: "Simon Pangan",
+    siteTitle: "Simon.",
     nav: [
       { text: 'Home', link: '/' },
       { text: 'About Me', link: '/about' },
