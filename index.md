@@ -34,7 +34,7 @@ features:
     title: Vue
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
   - icon:
-      alt: css logo
+      alt: css
       src: index-css.png
     title: Any frontend frameworks
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
