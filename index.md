@@ -4,9 +4,10 @@ layout: home
 hero:
   name: "Simon Pangan"
   text: "Fullstack Developer"
+  # tagline: Simple, powerful, and fast. Meet the modern SSG framework you've always wanted.
   tagline: Linkedin Headline.
   image:
-    src: /index-grad-pic.png
+    src: /grad-pic.png
     alt: Simon Pangan
   actions:
     - theme: brand
