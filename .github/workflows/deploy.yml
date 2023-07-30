@@ -42,7 +42,6 @@ jobs:
         uses: actions/upload-pages-artifact@v2
         with:
           path: .vitepress/dist
-  # Deployment job
   deploy:
     environment:
       name: github-pages
@@ -55,6 +54,7 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v2
   Image:
+    needs: build
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
@@ -78,7 +78,7 @@ jobs:
           git config --global user.email "actions@github.com"
           git add -A
           git commit -m "Update copied files"
-          git push https://github.com/simonpangan/simonpangan.github.io.git HEAD:main
+          git push https://github.com/simonpangan/simonpangan.github.io.git HEAD:master
         env:
           GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
 
