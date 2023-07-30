@@ -43,7 +43,9 @@ jobs:
         uses: actions/upload-pages-artifact@v2
         with:
           path: .vitepress/dist
-
+      - name: Copy Image asset directory
+        run: |
+          rsync -a assets/img/ .vitepress/dist/assets
   # Deployment job
   deploy:
     environment:
