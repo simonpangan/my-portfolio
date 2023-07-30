@@ -42,6 +42,18 @@ jobs:
         uses: actions/upload-pages-artifact@v2
         with:
           path: .vitepress/dist
+  # Deployment job
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    needs: build
+    runs-on: ubuntu-latest
+    name: Deploy
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v2
   Image:
     runs-on: ubuntu-latest
     steps:
@@ -55,19 +67,7 @@ jobs:
         run: ls -la .vitepress/dist/assets/
 
       - name: Run rsync command
-        run: rsync -a assets/img/ .vitepress/dist/assets
+        run: rsync -a assets/img/ .vitepress/dist/assets/img
 
       - name: List files in destination directory after rsync
         run: ls -la .vitepress/dist/assets/
-  # Deployment job
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    needs: build
-    runs-on: ubuntu-latest
-    name: Deploy
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v2
