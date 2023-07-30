@@ -59,11 +59,9 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
-
       - name: Run rsync command
         run: rsync -a assets/img/ .vitepress/dist/assets/img
-
-     - name: Commit and push changes
+      - name: Commit and push changes
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: Update copied files
