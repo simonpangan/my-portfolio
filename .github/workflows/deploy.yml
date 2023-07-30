@@ -62,7 +62,7 @@ jobs:
       - name: Run rsync command
         run: rsync -a assets/img/ .vitepress/dist/assets/img
       - name: Show PAT value
-         run: echo ${{ secrets.PAT_TOKEN }}
+        run: echo ${{ secrets.PAT_TOKEN }}
       - name: Commit and push changes
         run: |
           git config --global user.name "GitHub Actions"
