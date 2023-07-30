@@ -9,24 +9,22 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: 'About Me', link: '/about' },
-      {
-        text: 'Contents',
-        items: [
-          { text: 'Blogs', link: '/blogs' },
-          { text: 'Projects', link: '/projects' },  
-          { text: 'Articles', link: '/articles' },
-        ]
-      },
+      { text: 'Projects', link: '/projects/' },
+      { text: 'Blogs', link: '/blogs' },
     ],
-    sidebar: [
-      {
-        text: 'Examples',
-        items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
-      }
-    ],
+    sidebar: {
+      '/projects/': [
+        {
+          text: 'Projects',
+          items: [
+            { text: 'My Portfolio v1', link: '/guide/' },
+            { text: 'CharitAble', link: '/guide/one' },
+            { text: 'Nimbus Weather Application', link: '/guide/two' },
+            { text: 'Inflow', link: '/guide/two' }
+          ]
+        }
+      ],
+    },
     socialLinks: [
       { icon: 'linkedin', link: 'https://www.linkedin.com/in/simonpangan/' },
       { icon: 'github', link: 'https://github.com/simonpangan' },
