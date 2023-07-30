@@ -7,7 +7,7 @@ hero:
   # tagline: Simple, powerful, and fast. Meet the modern SSG framework you've always wanted.
   tagline: Linkedin Headline.
   image:
-    src: /grad-pic.png
+    src: /assets/img/grad-pic.png
     alt: Simon Pangan
   actions:
     - theme: brand

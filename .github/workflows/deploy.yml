@@ -44,8 +44,7 @@ jobs:
         with:
           path: .vitepress/dist
       - name: Copy Image asset directory
-        run: |
-          rsync -a assets/img .vitepress/dist/assets
+        run: rsync -a assets/img .vitepress/dist/assets
   # Deployment job
   deploy:
     environment:
