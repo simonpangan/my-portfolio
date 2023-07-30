@@ -32,8 +32,8 @@ export default defineConfig({
       { icon: 'github', link: 'https://github.com/simonpangan' },
     ],
     footer: {
-      message: 'Released under the MIT License.',
-      copyright: 'Copyright © 2019-present Evan You'
+      // message: 'Released under the MIT License.',
+      copyright: 'Copyright © 2019-present Simon Pangan'
     }
   },
   transformHead({ assets }) {
