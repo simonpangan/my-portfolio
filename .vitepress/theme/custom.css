@@ -21,8 +21,11 @@
   --vp-c-brand-darker: #6d6e46;
 
   --vp-c-bg: #f6f1e9;
+
+  --vp-c-bg-soft: #FAF8F1;
 }
 
 .dark {
-  --vp-c-bg: #1e1e20;
+  --vp-c-bg: #1e1e20; 
+  --vp-c-bg-soft: #252529;
 }
