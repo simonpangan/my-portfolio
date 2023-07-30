@@ -30,7 +30,11 @@ export default defineConfig({
     socialLinks: [
       { icon: 'linkedin', link: 'https://www.linkedin.com/in/simonpangan/' },
       { icon: 'github', link: 'https://github.com/simonpangan' },
-    ]
+    ],
+    footer: {
+      message: 'Released under the MIT License.',
+      copyright: 'Copyright © 2019-present Evan You'
+    }
   },
   transformHead({ assets }) {
     const myFontFile = assets.find(file => /\w+\.ttf/)
@@ -53,4 +57,4 @@ export default defineConfig({
     // ['link', { rel: 'icon', href: '/assets/icons/favicon-16x16.png', sizes: '16x16', type: 'image/png' }],
     // ['li nk', { rel: 'icon', href: '/assets/icons/favicon-32x32.png', sizes: '32x32', type: 'image/png' }],
   // ],
-  })
+})
