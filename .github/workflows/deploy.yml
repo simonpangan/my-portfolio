@@ -68,8 +68,6 @@ jobs:
           git add -A
           git commit -m "Update copied files"
           git push https://github.com/simonpangan/simonpangan.github.io.git HEAD:master
-        with:
-          commit_message: Update copied files
         env:
           GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}  
 
