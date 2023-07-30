@@ -38,14 +38,14 @@ jobs:
       - name: Install dependencies
         run: npm ci # or pnpm install / yarn install
       - name: Build with VitePress
-        run: npm run docs:build # or pnpm docs:build / yarn docs:build
+        run: npm run docs:build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
           path: .vitepress/dist
       - name: Copy Image asset directory
         run: |
-          rsync -a assets/img/ .vitepress/dist/assets
+          rsync -a assets/img .vitepress/dist/assets
   # Deployment job
   deploy:
     environment:
