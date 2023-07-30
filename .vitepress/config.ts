@@ -1,6 +1,6 @@
 import { defineConfig } from 'vitepress'
+import { fileURLToPath, URL } from 'node:url'
 
-// https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Simon Pangan",
   description: "Simon Pangan portfolio",
@@ -48,9 +48,9 @@ export default defineConfig({
         ]
       ]
     }
-  }
+  },
   // head: [
     // ['link', { rel: 'icon', href: '/assets/icons/favicon-16x16.png', sizes: '16x16', type: 'image/png' }],
-    // ['link', { rel: 'icon', href: '/assets/icons/favicon-32x32.png', sizes: '32x32', type: 'image/png' }],
+    // ['li nk', { rel: 'icon', href: '/assets/icons/favicon-32x32.png', sizes: '32x32', type: 'image/png' }],
   // ],
-})
+  })

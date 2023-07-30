@@ -1,25 +1,35 @@
 ---
-# https://vitepress.dev/reference/default-theme-home-page
 layout: home
 
 hero:
-  name: "VitePress"
-  text: "Vite & Vue Powered Static Site Generator"
-  tagline: Simple, powerful, and fast. Meet the modern SSG framework you've always wanted.
+  name: "Simon Pangan"
+  text: "Fullstack Developer"
+  # tagline: Simple, powerful, and fast. Meet the modern SSG framework you've always wanted.
+  tagline: Linkedin Headline.
   actions:
     - theme: brand
-      text: Get Started
-      link: /markdown-examples
+      text: View all projects
+      link: /projects
     - theme: alt
-      text: View on github
+      text: Resume
       link: /api-examples
 
 features:
-  - title: Feature A
+  - icon: 
+      alt: laravel logo
+      src: assets/img/laravel-logo.png
+    title: Laravel
+    details: Cloud application deployment with Ansible
+  - icon:
+      alt: vue.js logo
+      src: assets/img/vue-logo.png
+      width: 500
+    title: Vue.Js
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
+  - icon:
+      alt: mysql logo
+      src: assets/img/mysql-logo.png
+    title: Mysql
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
 
