@@ -1,20 +1,33 @@
-# vitepress blog theme
+## Detail
 
-一个 VitePress 的博客主题, live demo: https://vitepress-blog-theme.vercel.app/
+This is a blog theme used vitepress to build. You could [click here](https://visionary-sunflower-dc7ae3.netlify.app/) to see what it looks like.
 
-<a href="https://vitepress-blog-theme.vercel.app/content/posts/Hello.html"><img src="https://user-images.githubusercontent.com/65269574/227759806-0ac36549-9ada-426b-8c67-50c0ae04b3d9.png"></a>
+## Highlights
 
-## Local development
-
-使用 `pnpm` 作为包管理器, 你可以通过以下方式进行本地开发
+- [x] pagination
+- [x] dark mode
+- [x] archives
+- [x] tags
+- [x] content level
+- [x] comments
+- [x] lastUpdated
+- [x] github actions
+- [x] mobile + desktop
+- [x] RSS
+- [x] Local Search
+- [x] Math Equation(markdown-it-mathjax3)
+## Start
 
 ```shell
-pnpm i
+npx degit clark-cui/vitepress-blog-zaun my-vitepress-blog
+cd my-vitepress-blog
+pnpm i # If you didn't install pnpm,you can run: npm install -g pnpm
 pnpm dev
 ```
 
-## License
+If you want to view rss result or use local search in development mode, you should run
 
-MIT License
-
-<!-- https://flowbite.com/docs/components/card/#card-with-link -->
+```shell
+pnpm run build
+pnpm run serve
+```

@@ -1,8 +1,6 @@
-.vitepress/cache
-.vitepress/dist
+# Build and Release Folders
 node_modules
-.idea
-auto-imports.d.ts
-components.d.ts
-
-bin
+.vitepress/dist
+.vitepress/cache
+.DS_Store
+.vscode

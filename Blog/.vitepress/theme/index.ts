@@ -1,17 +1,17 @@
-// https://vitepress.dev/guide/custom-theme
-import Theme from "vitepress/theme";
-import { Layout, attachShortcuts } from "@/index";
+import DefaultTheme from "vitepress/theme";
+import Archives from "./components/Archives.vue";
+import Tags from "./components/Tags.vue";
+import MyLayout from "./components/MyLayout.vue";
+import "./custom.css";
 
 export default {
-  ...Theme,
-  // Layout: () => {
-  //   return h(Theme.Layout, null, {
-  //     // https://vitepress.dev/guide/extending-default-theme#layout-slots
-  //   })
-  // },
-  Layout,
-  //@ts-ignore
-  enhanceApp({ app, router, siteData }) {
-    attachShortcuts(app);
+  ...DefaultTheme,
+  Layout: MyLayout,
+  enhanceApp(ctx) {
+    DefaultTheme.enhanceApp(ctx);
+    const { app } = ctx;
+    // register global components
+    app.component("Archives", Archives);
+    app.component("Tags", Tags);
   },
 };

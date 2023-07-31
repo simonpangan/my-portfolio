@@ -1,86 +1,79 @@
-import { createContentLoader, type SiteConfig } from "vitepress";
-import { Author, Feed } from "feed";
-import path from "path";
-import { resolve } from "path";
-import { writeFileSync, createWriteStream } from "fs";
+import { dirname } from "path";
+import fg from "fast-glob";
+import fs from "fs-extra";
+import matter from "gray-matter";
+import MarkdownIt from "markdown-it";
+import type { FeedOptions, Item } from "feed";
+import { Feed } from "feed";
 
-import { SitemapStream } from "sitemap";
-
-export const getRssFeed = ({
-  baseUrl,
-  links,
-  copyright,
-  author,
-}: {
-  baseUrl: string;
-  copyright: string;
-  links: any;
-  author?: Author;
-}) => {
-  return async (config: SiteConfig) => {
-    const posts = await createContentLoader("./content/**/*.md", {
-      excerpt: true,
-      render: true,
-    }).load();
-
-    posts.sort(
-      (a, b) =>
-        +new Date(b.frontmatter.date as string) -
-        +new Date(a.frontmatter.date as string)
-    );
-
-    rss(config, baseUrl, copyright, posts, author);
-
-    await sitemap(baseUrl, config, links);
-  };
+const DOMAIN = "https://clark-cui.top";
+const AUTHOR = {
+  name: "Clark Cui",
+  email: "rongchuancui@gmail.com",
+  link: DOMAIN,
+};
+const OPTIONS: FeedOptions = {
+  title: "Clark Cui",
+  description: "Clark Cui' Blog",
+  id: `${DOMAIN}/`,
+  link: `${DOMAIN}/`,
+  copyright: "MIT License",
+  feedLinks: {
+    json: DOMAIN + "/feed.json",
+    atom: DOMAIN + "/feed.atom",
+    rss: DOMAIN + "/feed.xml",
+  },
+  author: AUTHOR,
+  image: "https://clark-cui.top/horse.svg",
+  favicon: "https://clark-cui.top/horse.svg",
 };
 
-async function sitemap(baseUrl: string, config: SiteConfig<any>, links: any) {
-  const sitemap = new SitemapStream({ hostname: baseUrl });
-  const writeStream = createWriteStream(resolve(config.outDir, "sitemap.xml"));
-  sitemap.pipe(writeStream);
-  links.forEach((link: any) => sitemap.write(link));
-  sitemap.end();
-  await new Promise((r) => writeStream.on("finish", r));
+const markdown = MarkdownIt({
+  html: true,
+  breaks: true,
+  linkify: true,
+});
+
+export async function buildBlogRSS() {
+  const posts = await generateRSS();
+  writeFeed("feed", posts);
 }
 
-function rss(
-  config: SiteConfig<any>,
-  baseUrl: string,
-  copyright: string,
-  posts: any[],
-  author?: Author
-) {
-  const feed = new Feed({
-    title: config.site.title,
-    description: config.site.description,
-    language: config.site.lang,
-    id: baseUrl,
-    link: baseUrl,
-    image: `${baseUrl}/favicon.ico`,
-    favicon: `${baseUrl}/favicon.ico`,
-    copyright: copyright,
-    author: author,
-  });
-  posts = posts.slice(0, 5);
-  for (const { url, excerpt, frontmatter, html } of posts) {
-    feed.addItem({
-      title: frontmatter.title,
-      id: `${baseUrl}${url}`,
-      link: `${baseUrl}${url}`,
-      description: excerpt,
-      content: html,
-      author: [
-        {
-          name: frontmatter.author,
-          link: frontmatter.twitter
-            ? `https://twitter.com/${frontmatter.twitter}`
-            : undefined,
-        },
-      ],
-      date: frontmatter.date ? new Date(frontmatter.date) : new Date(),
-    });
-  }
+async function generateRSS() {
+  const files = await fg("posts/*.md");
 
-  writeFileSync(path.join(config.outDir, "rss.xml"), feed.rss2());
+  const posts: any[] = (
+    await Promise.all(
+      files
+        .filter((i) => !i.includes("index"))
+        .map(async (i) => {
+          const raw = await fs.readFile(i, "utf-8");
+          const { data, content } = matter(raw);
+          const html = markdown
+            .render(content)
+            .replace('src="/', `src="${DOMAIN}/`);
+
+          return {
+            ...data,
+            date: new Date(data.date),
+            content: html,
+            author: [AUTHOR],
+            link: `${DOMAIN}/${i.replace(".md", ".html")}`,
+          };
+        })
+    )
+  ).filter(Boolean);
+
+  posts.sort((a, b) => +new Date(b.date) - +new Date(a.date));
+  return posts;
+}
+
+async function writeFeed(name: string, items: Item[]) {
+  const feed = new Feed(OPTIONS);
+  items.forEach((item) => feed.addItem(item));
+
+  await fs.ensureDir(dirname(`./.vitepress/dist/${name}`));
+  await fs.writeFile(`./.vitepress/dist/${name}.xml`, feed.rss2(), "utf-8");
+  await fs.writeFile(`./.vitepress/dist/${name}.atom`, feed.atom1(), "utf-8");
+  await fs.writeFile(`./.vitepress/dist/${name}.json`, feed.json1(), "utf-8");
 }
