@@ -23,7 +23,7 @@ export default defineConfig({
           items: [
             { text: 'My Portfolio v1', link: '/guide/' },
             { text: 'CharitAble', link: '/guide/one' },
-            { text: 'Nimbus Weather Application', link: '/guide/two' },
+            { text: 'Nimbus Weather Application', link: '/projects/nimbus-weather' },
             { text: 'Inflow', link: '/guide/two' }
           ]
         }
