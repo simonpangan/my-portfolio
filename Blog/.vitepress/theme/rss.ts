@@ -6,7 +6,7 @@ import MarkdownIt from "markdown-it";
 import type { FeedOptions, Item } from "feed";
 import { Feed } from "feed";
 
-const DOMAIN = "hhttp://localhost:5173/";
+const DOMAIN = "https://simonpangan-blogs.netlify.app/";
 const AUTHOR = {
   name: "Simon Pangan",
   email: "simonjoseph.pangan@gmail.com",

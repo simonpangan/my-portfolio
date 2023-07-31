@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Simon Pangan</title>
-        <link>hhttp://localhost:5173//</link>
+        <link>https://simonpangan-blogs.netlify.app//</link>
         <description>Simon Pangan' Blog</description>
-        <lastBuildDate>Mon, 31 Jul 2023 09:36:35 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 31 Jul 2023 09:40:21 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
             <title>Simon Pangan</title>
             <url>https://clark-cui.top/horse.svg</url>
-            <link>hhttp://localhost:5173//</link>
+            <link>https://simonpangan-blogs.netlify.app//</link>
         </image>
         <copyright>MIT License</copyright>
-        <atom:link href="hhttp://localhost:5173//feed.xml" rel="self" type="application/rss+xml"/>
+        <atom:link href="https://simonpangan-blogs.netlify.app//feed.xml" rel="self" type="application/rss+xml"/>
         <item>
             <title><![CDATA[2022 Annual Summary]]></title>
-            <link>hhttp://localhost:5173//posts/2022 Annual Summary.html</link>
-            <guid>hhttp://localhost:5173//posts/2022 Annual Summary.html</guid>
+            <link>https://simonpangan-blogs.netlify.app//posts/2022 Annual Summary.html</link>
+            <guid>https://simonpangan-blogs.netlify.app//posts/2022 Annual Summary.html</guid>
             <pubDate>Wed, 19 Apr 2023 00:00:00 GMT</pubDate>
             <description><![CDATA[2022 Annual Summary]]></description>
             <content:encoded><![CDATA[<h3>Why write the annual summary at this time?</h3>
@@ -45,8 +45,8 @@
         </item>
         <item>
             <title><![CDATA[前端已死]]></title>
-            <link>hhttp://localhost:5173//posts/前端已死.html</link>
-            <guid>hhttp://localhost:5173//posts/前端已死.html</guid>
+            <link>https://simonpangan-blogs.netlify.app//posts/前端已死.html</link>
+            <guid>https://simonpangan-blogs.netlify.app//posts/前端已死.html</guid>
             <pubDate>Wed, 05 Apr 2023 00:00:00 GMT</pubDate>
             <description><![CDATA[前端已死]]></description>
             <content:encoded><![CDATA[<p>最近前端已死的言论发酵很严重，我思考了不久，这里分享一下我的看法，比较悲观，只是个人观点，欢迎反驳。</p>
@@ -102,8 +102,8 @@
         </item>
         <item>
             <title><![CDATA[使用whisper生成字幕]]></title>
-            <link>hhttp://localhost:5173//posts/使用whisper生成字幕.html</link>
-            <guid>hhttp://localhost:5173//posts/使用whisper生成字幕.html</guid>
+            <link>https://simonpangan-blogs.netlify.app//posts/使用whisper生成字幕.html</link>
+            <guid>https://simonpangan-blogs.netlify.app//posts/使用whisper生成字幕.html</guid>
             <pubDate>Wed, 22 Mar 2023 00:00:00 GMT</pubDate>
             <description><![CDATA[使用whisper生成字幕]]></description>
             <content:encoded><![CDATA[<h2>简介</h2>
@@ -173,8 +173,8 @@ brew install ffmpeg
         </item>
         <item>
             <title><![CDATA[合约的multicall]]></title>
-            <link>hhttp://localhost:5173//posts/合约的multicall.html</link>
-            <guid>hhttp://localhost:5173//posts/合约的multicall.html</guid>
+            <link>https://simonpangan-blogs.netlify.app//posts/合约的multicall.html</link>
+            <guid>https://simonpangan-blogs.netlify.app//posts/合约的multicall.html</guid>
             <pubDate>Mon, 20 Mar 2023 00:00:00 GMT</pubDate>
             <description><![CDATA[合约的multicall]]></description>
             <content:encoded><![CDATA[<h2>背景</h2>
@@ -450,8 +450,8 @@ const { address, abi, functionName, ...rest } = contracts[i];
         </item>
         <item>
             <title><![CDATA[为什么DEX需要授权?]]></title>
-            <link>hhttp://localhost:5173//posts/为什么DEX需要授权.html</link>
-            <guid>hhttp://localhost:5173//posts/为什么DEX需要授权.html</guid>
+            <link>https://simonpangan-blogs.netlify.app//posts/为什么DEX需要授权.html</link>
+            <guid>https://simonpangan-blogs.netlify.app//posts/为什么DEX需要授权.html</guid>
             <pubDate>Thu, 16 Feb 2023 00:00:00 GMT</pubDate>
             <description><![CDATA[为什么DEX需要授权?]]></description>
             <content:encoded><![CDATA[<h3>前言</h3>
@@ -595,8 +595,8 @@ event Approval(address indexed _owner, address indexed _spender, uint256 _value)
         </item>
         <item>
             <title><![CDATA[区块链科普2]]></title>
-            <link>hhttp://localhost:5173//posts/区块链科普2.html</link>
-            <guid>hhttp://localhost:5173//posts/区块链科普2.html</guid>
+            <link>https://simonpangan-blogs.netlify.app//posts/区块链科普2.html</link>
+            <guid>https://simonpangan-blogs.netlify.app//posts/区块链科普2.html</guid>
             <pubDate>Mon, 13 Feb 2023 00:00:00 GMT</pubDate>
             <description><![CDATA[区块链基础知识]]></description>
             <content:encoded><![CDATA[<h3>流行词</h3>
@@ -682,8 +682,8 @@ event Approval(address indexed _owner, address indexed _spender, uint256 _value)
         </item>
         <item>
             <title><![CDATA[React 简单优化]]></title>
-            <link>hhttp://localhost:5173//posts/react优化.html</link>
-            <guid>hhttp://localhost:5173//posts/react优化.html</guid>
+            <link>https://simonpangan-blogs.netlify.app//posts/react优化.html</link>
+            <guid>https://simonpangan-blogs.netlify.app//posts/react优化.html</guid>
             <pubDate>Sat, 03 Sep 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[React]]></description>
             <content:encoded><![CDATA[<h3>优化的原因</h3>
@@ -858,8 +858,8 @@ export default App;
         </item>
         <item>
             <title><![CDATA[密码学原理]]></title>
-            <link>hhttp://localhost:5173//posts/密码学原理.html</link>
-            <guid>hhttp://localhost:5173//posts/密码学原理.html</guid>
+            <link>https://simonpangan-blogs.netlify.app//posts/密码学原理.html</link>
+            <guid>https://simonpangan-blogs.netlify.app//posts/密码学原理.html</guid>
             <pubDate>Mon, 15 Aug 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[区块链基础知识]]></description>
             <content:encoded><![CDATA[<h3>简介</h3>
@@ -929,8 +929,8 @@ export default App;
         </item>
         <item>
             <title><![CDATA[Cosmos 详解]]></title>
-            <link>hhttp://localhost:5173//posts/Cosmos详解.html</link>
-            <guid>hhttp://localhost:5173//posts/Cosmos详解.html</guid>
+            <link>https://simonpangan-blogs.netlify.app//posts/Cosmos详解.html</link>
+            <guid>https://simonpangan-blogs.netlify.app//posts/Cosmos详解.html</guid>
             <pubDate>Tue, 05 Jul 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[cosmos]]></description>
             <content:encoded><![CDATA[<h2>区块链现阶段的问题</h2>
@@ -999,8 +999,8 @@ export default App;
         </item>
         <item>
             <title><![CDATA[智能合约开发2]]></title>
-            <link>hhttp://localhost:5173//posts/智能合约开发2.html</link>
-            <guid>hhttp://localhost:5173//posts/智能合约开发2.html</guid>
+            <link>https://simonpangan-blogs.netlify.app//posts/智能合约开发2.html</link>
+            <guid>https://simonpangan-blogs.netlify.app//posts/智能合约开发2.html</guid>
             <pubDate>Mon, 09 May 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[智能合约]]></description>
             <content:encoded><![CDATA[<h3>合约的组成</h3>
@@ -1072,8 +1072,8 @@ contract Counter {  //定义合约
         </item>
         <item>
             <title><![CDATA[智能合约开发]]></title>
-            <link>hhttp://localhost:5173//posts/智能合约开发.html</link>
-            <guid>hhttp://localhost:5173//posts/智能合约开发.html</guid>
+            <link>https://simonpangan-blogs.netlify.app//posts/智能合约开发.html</link>
+            <guid>https://simonpangan-blogs.netlify.app//posts/智能合约开发.html</guid>
             <pubDate>Fri, 06 May 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[智能合约]]></description>
             <content:encoded><![CDATA[<h2>代码地址</h2>
@@ -1760,8 +1760,8 @@ const contractAddress = require(&quot;../data/contract-address.json&quot;);
         </item>
         <item>
             <title><![CDATA[DeFi科普]]></title>
-            <link>hhttp://localhost:5173//posts/DeFi科普.html</link>
-            <guid>hhttp://localhost:5173//posts/DeFi科普.html</guid>
+            <link>https://simonpangan-blogs.netlify.app//posts/DeFi科普.html</link>
+            <guid>https://simonpangan-blogs.netlify.app//posts/DeFi科普.html</guid>
             <pubDate>Sun, 01 May 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[DeFi基础知识]]></description>
             <content:encoded><![CDATA[<h2>什么是 DeFi</h2>
@@ -1815,8 +1815,8 @@ AMM 模式的交易所，汇率计算是其中的要点，它的原理是一个�
         </item>
         <item>
             <title><![CDATA[区块链科普]]></title>
-            <link>hhttp://localhost:5173//posts/区块链科普.html</link>
-            <guid>hhttp://localhost:5173//posts/区块链科普.html</guid>
+            <link>https://simonpangan-blogs.netlify.app//posts/区块链科普.html</link>
+            <guid>https://simonpangan-blogs.netlify.app//posts/区块链科普.html</guid>
             <pubDate>Wed, 27 Apr 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[区块链基础知识]]></description>
             <content:encoded><![CDATA[<h2>什么是区块链</h2>
@@ -1914,8 +1914,8 @@ AMM 模式的交易所，汇率计算是其中的要点，它的原理是一个�
         </item>
         <item>
             <title><![CDATA[虚拟机配置]]></title>
-            <link>hhttp://localhost:5173//posts/虚拟机配置.html</link>
-            <guid>hhttp://localhost:5173//posts/虚拟机配置.html</guid>
+            <link>https://simonpangan-blogs.netlify.app//posts/虚拟机配置.html</link>
+            <guid>https://simonpangan-blogs.netlify.app//posts/虚拟机配置.html</guid>
             <pubDate>Thu, 20 Jan 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[配置虚拟机开发环境]]></description>
             <content:encoded><![CDATA[<h3>linux shell</h3>
@@ -1986,8 +1986,8 @@ AMM 模式的交易所，汇率计算是其中的要点，它的原理是一个�
         </item>
         <item>
             <title><![CDATA[博客开启https]]></title>
-            <link>hhttp://localhost:5173//posts/博客开启https.html</link>
-            <guid>hhttp://localhost:5173//posts/博客开启https.html</guid>
+            <link>https://simonpangan-blogs.netlify.app//posts/博客开启https.html</link>
+            <guid>https://simonpangan-blogs.netlify.app//posts/博客开启https.html</guid>
             <pubDate>Tue, 11 Jan 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[所有子域名都开启了https]]></description>
             <content:encoded><![CDATA[<h2>背景</h2>
@@ -2050,8 +2050,8 @@ sudo systemctl status nginx //检查其运行状态
         </item>
         <item>
             <title><![CDATA[随便说点啥]]></title>
-            <link>hhttp://localhost:5173//posts/随便说点啥.html</link>
-            <guid>hhttp://localhost:5173//posts/随便说点啥.html</guid>
+            <link>https://simonpangan-blogs.netlify.app//posts/随便说点啥.html</link>
+            <guid>https://simonpangan-blogs.netlify.app//posts/随便说点啥.html</guid>
             <pubDate>Mon, 10 Jan 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[吹吹水]]></description>
             <content:encoded><![CDATA[<h2>生活</h2>
@@ -2090,8 +2090,8 @@ sudo systemctl status nginx //检查其运行状态
         </item>
         <item>
             <title><![CDATA[mac外接显示器]]></title>
-            <link>hhttp://localhost:5173//posts/mac外接显示器.html</link>
-            <guid>hhttp://localhost:5173//posts/mac外接显示器.html</guid>
+            <link>https://simonpangan-blogs.netlify.app//posts/mac外接显示器.html</link>
+            <guid>https://simonpangan-blogs.netlify.app//posts/mac外接显示器.html</guid>
             <pubDate>Fri, 15 Oct 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[mac外接显示器的坑]]></description>
             <content:encoded><![CDATA[<h2>背景</h2>
@@ -2111,8 +2111,8 @@ sudo systemctl status nginx //检查其运行状态
         </item>
         <item>
             <title><![CDATA[TypeScript学习笔记]]></title>
-            <link>hhttp://localhost:5173//posts/TypeScript学习笔记.html</link>
-            <guid>hhttp://localhost:5173//posts/TypeScript学习笔记.html</guid>
+            <link>https://simonpangan-blogs.netlify.app//posts/TypeScript学习笔记.html</link>
+            <guid>https://simonpangan-blogs.netlify.app//posts/TypeScript学习笔记.html</guid>
             <pubDate>Fri, 03 Sep 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[typescript学习笔记]]></description>
             <content:encoded><![CDATA[<h2>tips</h2>
@@ -2477,8 +2477,8 @@ tom.run();
         </item>
         <item>
             <title><![CDATA[TTS]]></title>
-            <link>hhttp://localhost:5173//posts/TTS.html</link>
-            <guid>hhttp://localhost:5173//posts/TTS.html</guid>
+            <link>https://simonpangan-blogs.netlify.app//posts/TTS.html</link>
+            <guid>https://simonpangan-blogs.netlify.app//posts/TTS.html</guid>
             <pubDate>Mon, 03 May 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[tts]]></description>
             <content:encoded><![CDATA[<h3>需求</h3>
@@ -2614,8 +2614,8 @@ tom.run();
         </item>
         <item>
             <title><![CDATA[js变量提升]]></title>
-            <link>hhttp://localhost:5173//posts/变量提升.html</link>
-            <guid>hhttp://localhost:5173//posts/变量提升.html</guid>
+            <link>https://simonpangan-blogs.netlify.app//posts/变量提升.html</link>
+            <guid>https://simonpangan-blogs.netlify.app//posts/变量提升.html</guid>
             <pubDate>Tue, 08 Dec 2020 00:00:00 GMT</pubDate>
             <description><![CDATA[javascript的变量提升机制]]></description>
             <content:encoded><![CDATA[<blockquote>
@@ -2717,8 +2717,8 @@ bar = function () {
         </item>
         <item>
             <title><![CDATA[代理配置]]></title>
-            <link>hhttp://localhost:5173//posts/proxyConfig.html</link>
-            <guid>hhttp://localhost:5173//posts/proxyConfig.html</guid>
+            <link>https://simonpangan-blogs.netlify.app//posts/proxyConfig.html</link>
+            <guid>https://simonpangan-blogs.netlify.app//posts/proxyConfig.html</guid>
             <pubDate>Wed, 10 Jun 2020 00:00:00 GMT</pubDate>
             <description><![CDATA[由于网络问题，需要做一些代理的设置，这里是我的一些记录]]></description>
             <content:encoded><![CDATA[<h3>chrome</h3>
@@ -2735,8 +2735,8 @@ bar = function () {
         </item>
         <item>
             <title><![CDATA[建站日记]]></title>
-            <link>hhttp://localhost:5173//posts/buildSite.html</link>
-            <guid>hhttp://localhost:5173//posts/buildSite.html</guid>
+            <link>https://simonpangan-blogs.netlify.app//posts/buildSite.html</link>
+            <guid>https://simonpangan-blogs.netlify.app//posts/buildSite.html</guid>
             <pubDate>Fri, 10 Jan 2020 00:00:00 GMT</pubDate>
             <description><![CDATA[这是服务器建站的一系列记录，早期的版本已经遗失，这里是目前的一些实践与想法]]></description>
             <content:encoded><![CDATA[<h3>ucloud 服务器</h3>

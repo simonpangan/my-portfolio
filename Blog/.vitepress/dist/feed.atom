@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>hhttp://localhost:5173//</id>
+    <id>https://simonpangan-blogs.netlify.app//</id>
     <title>Simon Pangan</title>
-    <updated>2023-07-31T09:36:35.531Z</updated>
+    <updated>2023-07-31T09:40:21.751Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Simon Pangan</name>
         <email>simonjoseph.pangan@gmail.com</email>
-        <uri>hhttp://localhost:5173/</uri>
+        <uri>https://simonpangan-blogs.netlify.app/</uri>
     </author>
-    <link rel="alternate" href="hhttp://localhost:5173//"/>
-    <link rel="self" href="hhttp://localhost:5173//feed.atom"/>
+    <link rel="alternate" href="https://simonpangan-blogs.netlify.app//"/>
+    <link rel="self" href="https://simonpangan-blogs.netlify.app//feed.atom"/>
     <subtitle>Simon Pangan' Blog</subtitle>
     <logo>https://clark-cui.top/horse.svg</logo>
     <icon>https://clark-cui.top/horse.svg</icon>
     <rights>MIT License</rights>
     <entry>
         <title type="html"><![CDATA[2022 Annual Summary]]></title>
-        <id>hhttp://localhost:5173//posts/2022 Annual Summary.html</id>
-        <link href="hhttp://localhost:5173//posts/2022 Annual Summary.html"/>
+        <id>https://simonpangan-blogs.netlify.app//posts/2022 Annual Summary.html</id>
+        <link href="https://simonpangan-blogs.netlify.app//posts/2022 Annual Summary.html"/>
         <updated>2023-04-19T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[2022 Annual Summary]]></summary>
         <content type="html"><![CDATA[<h3>Why write the annual summary at this time?</h3>
@@ -45,13 +45,13 @@
         <author>
             <name>Simon Pangan</name>
             <email>simonjoseph.pangan@gmail.com</email>
-            <uri>hhttp://localhost:5173/</uri>
+            <uri>https://simonpangan-blogs.netlify.app/</uri>
         </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[前端已死]]></title>
-        <id>hhttp://localhost:5173//posts/前端已死.html</id>
-        <link href="hhttp://localhost:5173//posts/前端已死.html"/>
+        <id>https://simonpangan-blogs.netlify.app//posts/前端已死.html</id>
+        <link href="https://simonpangan-blogs.netlify.app//posts/前端已死.html"/>
         <updated>2023-04-05T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[前端已死]]></summary>
         <content type="html"><![CDATA[<p>最近前端已死的言论发酵很严重，我思考了不久，这里分享一下我的看法，比较悲观，只是个人观点，欢迎反驳。</p>
@@ -106,13 +106,13 @@
         <author>
             <name>Simon Pangan</name>
             <email>simonjoseph.pangan@gmail.com</email>
-            <uri>hhttp://localhost:5173/</uri>
+            <uri>https://simonpangan-blogs.netlify.app/</uri>
         </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[使用whisper生成字幕]]></title>
-        <id>hhttp://localhost:5173//posts/使用whisper生成字幕.html</id>
-        <link href="hhttp://localhost:5173//posts/使用whisper生成字幕.html"/>
+        <id>https://simonpangan-blogs.netlify.app//posts/使用whisper生成字幕.html</id>
+        <link href="https://simonpangan-blogs.netlify.app//posts/使用whisper生成字幕.html"/>
         <updated>2023-03-22T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[使用whisper生成字幕]]></summary>
         <content type="html"><![CDATA[<h2>简介</h2>
@@ -181,13 +181,13 @@ brew install ffmpeg
         <author>
             <name>Simon Pangan</name>
             <email>simonjoseph.pangan@gmail.com</email>
-            <uri>hhttp://localhost:5173/</uri>
+            <uri>https://simonpangan-blogs.netlify.app/</uri>
         </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[合约的multicall]]></title>
-        <id>hhttp://localhost:5173//posts/合约的multicall.html</id>
-        <link href="hhttp://localhost:5173//posts/合约的multicall.html"/>
+        <id>https://simonpangan-blogs.netlify.app//posts/合约的multicall.html</id>
+        <link href="https://simonpangan-blogs.netlify.app//posts/合约的multicall.html"/>
         <updated>2023-03-20T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[合约的multicall]]></summary>
         <content type="html"><![CDATA[<h2>背景</h2>
@@ -462,13 +462,13 @@ const { address, abi, functionName, ...rest } = contracts[i];
         <author>
             <name>Simon Pangan</name>
             <email>simonjoseph.pangan@gmail.com</email>
-            <uri>hhttp://localhost:5173/</uri>
+            <uri>https://simonpangan-blogs.netlify.app/</uri>
         </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[为什么DEX需要授权?]]></title>
-        <id>hhttp://localhost:5173//posts/为什么DEX需要授权.html</id>
-        <link href="hhttp://localhost:5173//posts/为什么DEX需要授权.html"/>
+        <id>https://simonpangan-blogs.netlify.app//posts/为什么DEX需要授权.html</id>
+        <link href="https://simonpangan-blogs.netlify.app//posts/为什么DEX需要授权.html"/>
         <updated>2023-02-16T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[为什么DEX需要授权?]]></summary>
         <content type="html"><![CDATA[<h3>前言</h3>
@@ -611,13 +611,13 @@ event Approval(address indexed _owner, address indexed _spender, uint256 _value)
         <author>
             <name>Simon Pangan</name>
             <email>simonjoseph.pangan@gmail.com</email>
-            <uri>hhttp://localhost:5173/</uri>
+            <uri>https://simonpangan-blogs.netlify.app/</uri>
         </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[区块链科普2]]></title>
-        <id>hhttp://localhost:5173//posts/区块链科普2.html</id>
-        <link href="hhttp://localhost:5173//posts/区块链科普2.html"/>
+        <id>https://simonpangan-blogs.netlify.app//posts/区块链科普2.html</id>
+        <link href="https://simonpangan-blogs.netlify.app//posts/区块链科普2.html"/>
         <updated>2023-02-13T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[区块链基础知识]]></summary>
         <content type="html"><![CDATA[<h3>流行词</h3>
@@ -702,13 +702,13 @@ event Approval(address indexed _owner, address indexed _spender, uint256 _value)
         <author>
             <name>Simon Pangan</name>
             <email>simonjoseph.pangan@gmail.com</email>
-            <uri>hhttp://localhost:5173/</uri>
+            <uri>https://simonpangan-blogs.netlify.app/</uri>
         </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[React 简单优化]]></title>
-        <id>hhttp://localhost:5173//posts/react优化.html</id>
-        <link href="hhttp://localhost:5173//posts/react优化.html"/>
+        <id>https://simonpangan-blogs.netlify.app//posts/react优化.html</id>
+        <link href="https://simonpangan-blogs.netlify.app//posts/react优化.html"/>
         <updated>2022-09-03T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[React]]></summary>
         <content type="html"><![CDATA[<h3>优化的原因</h3>
@@ -882,13 +882,13 @@ export default App;
         <author>
             <name>Simon Pangan</name>
             <email>simonjoseph.pangan@gmail.com</email>
-            <uri>hhttp://localhost:5173/</uri>
+            <uri>https://simonpangan-blogs.netlify.app/</uri>
         </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[密码学原理]]></title>
-        <id>hhttp://localhost:5173//posts/密码学原理.html</id>
-        <link href="hhttp://localhost:5173//posts/密码学原理.html"/>
+        <id>https://simonpangan-blogs.netlify.app//posts/密码学原理.html</id>
+        <link href="https://simonpangan-blogs.netlify.app//posts/密码学原理.html"/>
         <updated>2022-08-15T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[区块链基础知识]]></summary>
         <content type="html"><![CDATA[<h3>简介</h3>
@@ -957,13 +957,13 @@ export default App;
         <author>
             <name>Simon Pangan</name>
             <email>simonjoseph.pangan@gmail.com</email>
-            <uri>hhttp://localhost:5173/</uri>
+            <uri>https://simonpangan-blogs.netlify.app/</uri>
         </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Cosmos 详解]]></title>
-        <id>hhttp://localhost:5173//posts/Cosmos详解.html</id>
-        <link href="hhttp://localhost:5173//posts/Cosmos详解.html"/>
+        <id>https://simonpangan-blogs.netlify.app//posts/Cosmos详解.html</id>
+        <link href="https://simonpangan-blogs.netlify.app//posts/Cosmos详解.html"/>
         <updated>2022-07-05T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[cosmos]]></summary>
         <content type="html"><![CDATA[<h2>区块链现阶段的问题</h2>
@@ -1031,13 +1031,13 @@ export default App;
         <author>
             <name>Simon Pangan</name>
             <email>simonjoseph.pangan@gmail.com</email>
-            <uri>hhttp://localhost:5173/</uri>
+            <uri>https://simonpangan-blogs.netlify.app/</uri>
         </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[智能合约开发2]]></title>
-        <id>hhttp://localhost:5173//posts/智能合约开发2.html</id>
-        <link href="hhttp://localhost:5173//posts/智能合约开发2.html"/>
+        <id>https://simonpangan-blogs.netlify.app//posts/智能合约开发2.html</id>
+        <link href="https://simonpangan-blogs.netlify.app//posts/智能合约开发2.html"/>
         <updated>2022-05-09T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[智能合约]]></summary>
         <content type="html"><![CDATA[<h3>合约的组成</h3>
@@ -1108,13 +1108,13 @@ contract Counter {  //定义合约
         <author>
             <name>Simon Pangan</name>
             <email>simonjoseph.pangan@gmail.com</email>
-            <uri>hhttp://localhost:5173/</uri>
+            <uri>https://simonpangan-blogs.netlify.app/</uri>
         </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[智能合约开发]]></title>
-        <id>hhttp://localhost:5173//posts/智能合约开发.html</id>
-        <link href="hhttp://localhost:5173//posts/智能合约开发.html"/>
+        <id>https://simonpangan-blogs.netlify.app//posts/智能合约开发.html</id>
+        <link href="https://simonpangan-blogs.netlify.app//posts/智能合约开发.html"/>
         <updated>2022-05-06T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[智能合约]]></summary>
         <content type="html"><![CDATA[<h2>代码地址</h2>
@@ -1800,13 +1800,13 @@ const contractAddress = require(&quot;../data/contract-address.json&quot;);
         <author>
             <name>Simon Pangan</name>
             <email>simonjoseph.pangan@gmail.com</email>
-            <uri>hhttp://localhost:5173/</uri>
+            <uri>https://simonpangan-blogs.netlify.app/</uri>
         </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[DeFi科普]]></title>
-        <id>hhttp://localhost:5173//posts/DeFi科普.html</id>
-        <link href="hhttp://localhost:5173//posts/DeFi科普.html"/>
+        <id>https://simonpangan-blogs.netlify.app//posts/DeFi科普.html</id>
+        <link href="https://simonpangan-blogs.netlify.app//posts/DeFi科普.html"/>
         <updated>2022-05-01T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[DeFi基础知识]]></summary>
         <content type="html"><![CDATA[<h2>什么是 DeFi</h2>
@@ -1859,13 +1859,13 @@ AMM 模式的交易所，汇率计算是其中的要点，它的原理是一个�
         <author>
             <name>Simon Pangan</name>
             <email>simonjoseph.pangan@gmail.com</email>
-            <uri>hhttp://localhost:5173/</uri>
+            <uri>https://simonpangan-blogs.netlify.app/</uri>
         </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[区块链科普]]></title>
-        <id>hhttp://localhost:5173//posts/区块链科普.html</id>
-        <link href="hhttp://localhost:5173//posts/区块链科普.html"/>
+        <id>https://simonpangan-blogs.netlify.app//posts/区块链科普.html</id>
+        <link href="https://simonpangan-blogs.netlify.app//posts/区块链科普.html"/>
         <updated>2022-04-27T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[区块链基础知识]]></summary>
         <content type="html"><![CDATA[<h2>什么是区块链</h2>
@@ -1962,13 +1962,13 @@ AMM 模式的交易所，汇率计算是其中的要点，它的原理是一个�
         <author>
             <name>Simon Pangan</name>
             <email>simonjoseph.pangan@gmail.com</email>
-            <uri>hhttp://localhost:5173/</uri>
+            <uri>https://simonpangan-blogs.netlify.app/</uri>
         </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[虚拟机配置]]></title>
-        <id>hhttp://localhost:5173//posts/虚拟机配置.html</id>
-        <link href="hhttp://localhost:5173//posts/虚拟机配置.html"/>
+        <id>https://simonpangan-blogs.netlify.app//posts/虚拟机配置.html</id>
+        <link href="https://simonpangan-blogs.netlify.app//posts/虚拟机配置.html"/>
         <updated>2022-01-20T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[配置虚拟机开发环境]]></summary>
         <content type="html"><![CDATA[<h3>linux shell</h3>
@@ -2038,13 +2038,13 @@ AMM 模式的交易所，汇率计算是其中的要点，它的原理是一个�
         <author>
             <name>Simon Pangan</name>
             <email>simonjoseph.pangan@gmail.com</email>
-            <uri>hhttp://localhost:5173/</uri>
+            <uri>https://simonpangan-blogs.netlify.app/</uri>
         </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[博客开启https]]></title>
-        <id>hhttp://localhost:5173//posts/博客开启https.html</id>
-        <link href="hhttp://localhost:5173//posts/博客开启https.html"/>
+        <id>https://simonpangan-blogs.netlify.app//posts/博客开启https.html</id>
+        <link href="https://simonpangan-blogs.netlify.app//posts/博客开启https.html"/>
         <updated>2022-01-11T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[所有子域名都开启了https]]></summary>
         <content type="html"><![CDATA[<h2>背景</h2>
@@ -2106,13 +2106,13 @@ sudo systemctl status nginx //检查其运行状态
         <author>
             <name>Simon Pangan</name>
             <email>simonjoseph.pangan@gmail.com</email>
-            <uri>hhttp://localhost:5173/</uri>
+            <uri>https://simonpangan-blogs.netlify.app/</uri>
         </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[随便说点啥]]></title>
-        <id>hhttp://localhost:5173//posts/随便说点啥.html</id>
-        <link href="hhttp://localhost:5173//posts/随便说点啥.html"/>
+        <id>https://simonpangan-blogs.netlify.app//posts/随便说点啥.html</id>
+        <link href="https://simonpangan-blogs.netlify.app//posts/随便说点啥.html"/>
         <updated>2022-01-10T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[吹吹水]]></summary>
         <content type="html"><![CDATA[<h2>生活</h2>
@@ -2150,13 +2150,13 @@ sudo systemctl status nginx //检查其运行状态
         <author>
             <name>Simon Pangan</name>
             <email>simonjoseph.pangan@gmail.com</email>
-            <uri>hhttp://localhost:5173/</uri>
+            <uri>https://simonpangan-blogs.netlify.app/</uri>
         </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[mac外接显示器]]></title>
-        <id>hhttp://localhost:5173//posts/mac外接显示器.html</id>
-        <link href="hhttp://localhost:5173//posts/mac外接显示器.html"/>
+        <id>https://simonpangan-blogs.netlify.app//posts/mac外接显示器.html</id>
+        <link href="https://simonpangan-blogs.netlify.app//posts/mac外接显示器.html"/>
         <updated>2021-10-15T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[mac外接显示器的坑]]></summary>
         <content type="html"><![CDATA[<h2>背景</h2>
@@ -2175,13 +2175,13 @@ sudo systemctl status nginx //检查其运行状态
         <author>
             <name>Simon Pangan</name>
             <email>simonjoseph.pangan@gmail.com</email>
-            <uri>hhttp://localhost:5173/</uri>
+            <uri>https://simonpangan-blogs.netlify.app/</uri>
         </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[TypeScript学习笔记]]></title>
-        <id>hhttp://localhost:5173//posts/TypeScript学习笔记.html</id>
-        <link href="hhttp://localhost:5173//posts/TypeScript学习笔记.html"/>
+        <id>https://simonpangan-blogs.netlify.app//posts/TypeScript学习笔记.html</id>
+        <link href="https://simonpangan-blogs.netlify.app//posts/TypeScript学习笔记.html"/>
         <updated>2021-09-03T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[typescript学习笔记]]></summary>
         <content type="html"><![CDATA[<h2>tips</h2>
@@ -2545,13 +2545,13 @@ tom.run();
         <author>
             <name>Simon Pangan</name>
             <email>simonjoseph.pangan@gmail.com</email>
-            <uri>hhttp://localhost:5173/</uri>
+            <uri>https://simonpangan-blogs.netlify.app/</uri>
         </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[TTS]]></title>
-        <id>hhttp://localhost:5173//posts/TTS.html</id>
-        <link href="hhttp://localhost:5173//posts/TTS.html"/>
+        <id>https://simonpangan-blogs.netlify.app//posts/TTS.html</id>
+        <link href="https://simonpangan-blogs.netlify.app//posts/TTS.html"/>
         <updated>2021-05-03T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[tts]]></summary>
         <content type="html"><![CDATA[<h3>需求</h3>
@@ -2686,13 +2686,13 @@ tom.run();
         <author>
             <name>Simon Pangan</name>
             <email>simonjoseph.pangan@gmail.com</email>
-            <uri>hhttp://localhost:5173/</uri>
+            <uri>https://simonpangan-blogs.netlify.app/</uri>
         </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[js变量提升]]></title>
-        <id>hhttp://localhost:5173//posts/变量提升.html</id>
-        <link href="hhttp://localhost:5173//posts/变量提升.html"/>
+        <id>https://simonpangan-blogs.netlify.app//posts/变量提升.html</id>
+        <link href="https://simonpangan-blogs.netlify.app//posts/变量提升.html"/>
         <updated>2020-12-08T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[javascript的变量提升机制]]></summary>
         <content type="html"><![CDATA[<blockquote>
@@ -2793,13 +2793,13 @@ bar = function () {
         <author>
             <name>Simon Pangan</name>
             <email>simonjoseph.pangan@gmail.com</email>
-            <uri>hhttp://localhost:5173/</uri>
+            <uri>https://simonpangan-blogs.netlify.app/</uri>
         </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[代理配置]]></title>
-        <id>hhttp://localhost:5173//posts/proxyConfig.html</id>
-        <link href="hhttp://localhost:5173//posts/proxyConfig.html"/>
+        <id>https://simonpangan-blogs.netlify.app//posts/proxyConfig.html</id>
+        <link href="https://simonpangan-blogs.netlify.app//posts/proxyConfig.html"/>
         <updated>2020-06-10T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[由于网络问题，需要做一些代理的设置，这里是我的一些记录]]></summary>
         <content type="html"><![CDATA[<h3>chrome</h3>
@@ -2815,13 +2815,13 @@ bar = function () {
         <author>
             <name>Simon Pangan</name>
             <email>simonjoseph.pangan@gmail.com</email>
-            <uri>hhttp://localhost:5173/</uri>
+            <uri>https://simonpangan-blogs.netlify.app/</uri>
         </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[建站日记]]></title>
-        <id>hhttp://localhost:5173//posts/buildSite.html</id>
-        <link href="hhttp://localhost:5173//posts/buildSite.html"/>
+        <id>https://simonpangan-blogs.netlify.app//posts/buildSite.html</id>
+        <link href="https://simonpangan-blogs.netlify.app//posts/buildSite.html"/>
         <updated>2020-01-10T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[这是服务器建站的一系列记录，早期的版本已经遗失，这里是目前的一些实践与想法]]></summary>
         <content type="html"><![CDATA[<h3>ucloud 服务器</h3>
@@ -2885,7 +2885,7 @@ bar = function () {
         <author>
             <name>Simon Pangan</name>
             <email>simonjoseph.pangan@gmail.com</email>
-            <uri>hhttp://localhost:5173/</uri>
+            <uri>https://simonpangan-blogs.netlify.app/</uri>
         </author>
     </entry>
 </feed>
