@@ -41,7 +41,6 @@ async function config() {
     lastUpdated: false,
     themeConfig: {
       // repo: "clark-cui/homeSite",
-      logo: "/horse.svg",
       avator:'/grad-pic.png',
       search: {
         provider: 'local'
@@ -71,7 +70,7 @@ async function config() {
         },
         {
           text: "RSS",
-          link: "http://localhost:5173/feed.xml",
+          link: "https://simonpangan-blogs.netlify.app/feed.xml",
         },
       ],
       socialLinks: [
