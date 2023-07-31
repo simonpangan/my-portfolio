@@ -1,10 +1,6 @@
 <template>
   <footer>
-    Powered by
-    <a href="https://github.com/clark-cui/" target="_blank" title="作者"
-      >clark-cui</a
-    >
-    | Copyright © 2019-{{ date }} | MIT License
+    Copyright © 2023 - Present | Simon Pangan
   </footer>
 </template>
 <script lang="ts" setup>

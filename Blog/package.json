@@ -21,6 +21,7 @@
   },
   "dependencies": {
     "dayjs": "^1.11.7",
+    "@simonpangan/my-website-css": "1.1.0",
     "gitalk": "^1.8.0"
   }
 }
