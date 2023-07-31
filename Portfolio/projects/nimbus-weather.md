@@ -10,15 +10,13 @@ This project was developed collaboratively as part of our final academic assignm
 
 ## Features
 
-The application has three level of verbosity :
-
-- **Date** - Essential informations of the frame (one line by frame)
-- **Location** - Essential informations and their complements (one line by layer)
-- **Weather Condition** - All informations is printed
-- **Weather Information** - All informations is printed
-- **Week Extended Weather Forecast** - All informations is printed
-- **Weather icon** - All informations is printed
-- **Trademark Display** - All informations is printed
+- **Date** - Displays the current date based on the location of the user.
+- **Location** - Extracts the coordinates (longitude and latitude) from user's device to get their current location (in order to retrieve the name of their city and its corresponding weather)
+- **Weather Condition** - Provides real-time weather conditions based on the location of the user.
+- **Weather Information** -  Describes the weather in detail by providing the Humidity percentage, Wind rate, hPa or atmospheric pressure and Cloudiness percentage.
+- **Week Extended Weather Forecast** - Displays the weather reading for the next 4 days.
+- **Weather icon** - Display icon based on type of weather  (rainy,cloudy).
+- **Trademark Display** - Sets the popular image from a location as a background (manila,valenzuela).
 
 ## GitHub repository
 
