@@ -53,25 +53,25 @@ async function config() {
       postLength: await getPostLength(),
       nav: [
         {
-          text: "🏡Blogs",
+          text: "Blogs",
           link: "/",
         },
         {
-          text: "🔖Tags",
+          text: "Tags",
           link: "/tags",
         },
         {
-          text: "📃Archives",
+          text: "Archives",
           link: "/archives",
         },
         {
-          text: "📃About Me",
+          text: "About Me",
           target: "_blank",
           link: "https://simonpangan.netlify.app/",
         },
         {
-          text: "🔥RSS",
-          link: "https://clark-cui.top/feed.xml",
+          text: "RSS",
+          link: "http://localhost:5173/feed.xml",
         },
       ],
       socialLinks: [
