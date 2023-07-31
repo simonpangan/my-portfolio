@@ -32,7 +32,7 @@ export default defineConfig({
     footer: {
       // message: 'Released under the MIT License.',
       copyright: 'Copyright © 2019-present Simon Pangan'
-    }
+    },
   },
   transformHead({ assets }) {
     const myFontFile = assets.find(file => /\w+\.ttf/)
