@@ -16,8 +16,8 @@
   },
   "scripts": {
     "dev": "vitepress dev ",
-    "build": "vitepress build ",
-    "serve": "vitepress serve "
+    "build": "vitepress build",
+    "serve": "vitepress serve"
   },
   "dependencies": {
     "@simonpangan/my-website-css": "1.1.0",
