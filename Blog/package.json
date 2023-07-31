@@ -2,7 +2,7 @@
   "name": "viteDoc",
   "version": "1.0.0",
   "main": "index.js",
-  "author": "clark-cui <cuirongchuan@163.com>",
+  "author": "simonpangan <simonjoseph.pangan@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "fast-glob": "^3.2.12",
