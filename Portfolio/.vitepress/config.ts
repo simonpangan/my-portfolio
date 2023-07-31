@@ -67,5 +67,8 @@ export default defineConfig({
     // ['link', { rel: 'icon', href: '/assets/icons/favicon-16x16.png', sizes: '16x16', type: 'image/png' }],
     // ['li nk', { rel: 'icon', href: '/assets/icons/favicon-32x32.png', sizes: '32x32', type: 'image/png' }],
   // ],
-  ignoreDeadLinks: true
+  ignoreDeadLinks: true,
+  vite: {
+    assetsInclude: ['**/*.ttf'],
+  }
 })
