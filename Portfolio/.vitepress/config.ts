@@ -10,7 +10,11 @@ export default defineConfig({
       { text: 'Home', link: '/' },
       { text: 'About Me', link: '/about' },
       { text: 'Projects', link: '/projects/' },
-      { text: 'Blogs', link: '/blogs' },
+      { 
+        text: 'Blogs', 
+        target: '_blank',
+        link: 'https://simonpangan-blogs.netlify.app/' 
+      },
     ],
     sidebar: {
       '/projects/': [
