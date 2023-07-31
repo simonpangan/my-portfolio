@@ -69,6 +69,6 @@ export default defineConfig({
   // ],
   ignoreDeadLinks: true,
   vite: {
-    assetsInclude: ['**/*.ttf'],
+    // assetsInclude: ['**/*.ttf'],
   }
 })
