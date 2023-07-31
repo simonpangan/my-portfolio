@@ -27,7 +27,7 @@ features:
       alt: mysql logo
       src: ./assets/img/mysql-logo.png
     title: Mysql
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    details: Integrates MySQL with backend technologies for seamless data handling and processing.
   - icon:
       alt: vue.js logo
       src: ./assets/img/vue-logo.png
