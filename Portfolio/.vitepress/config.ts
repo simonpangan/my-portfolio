@@ -24,7 +24,7 @@ export default defineConfig({
             { text: 'My Portfolio v1', link: '/guide/' },
             { text: 'CharitAble', link: '/guide/one' },
             { text: 'Nimbus Weather Application', link: '/projects/nimbus-weather' },
-            { text: 'Inflow', link: '/guide/two' }
+            { text: 'Inflow', link: '/projects/inflow' }
           ]
         }
       ],
@@ -69,6 +69,15 @@ export default defineConfig({
   // ],
   ignoreDeadLinks: true,
   vite: {
-    // assetsInclude: ['**/*.ttf'],
+    resolve: {
+      alias: {
+        '@shared': fileURLToPath(new URL('./../../Shared', import.meta.url))
+      },
+    },
+    server: {
+      fs: {
+        allow: ['..'],
+      },
+    },
   }
 })
