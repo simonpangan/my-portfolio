@@ -1,30 +1,30 @@
-<template>
-	<SimpleGallery galleryID="my-test-gallery" :images="images" />
-</template>
-  
-<script>
+<script setup>
 import SimpleGallery from '../components/SimpleGallery.vue';
 
-export default {
-	name: 'App',
-	components: {
-		SimpleGallery,
-	},
-	data() {
-		return {
-			images: [
-				{
-					largeURL:
-						'../assets/img/flowchart.png',
-					thumbnailURL:
-						'../assets/img/flowchart.png',
-					width: 3500,
-					height: 2500,
-					alt: 'Flowchart Problem'
-				},
-			],
-		};
-	},
-};
+const images = [
+	{
+		largeURL:
+			'../assets/img/flowchart.png',
+		thumbnailURL:
+			'../assets/img/flowchart.png',
+		width: 3500,
+		height: 2500,
+		alt: 'Flowchart Problem'
+	}
+]
 </script>
+
+<template>
+	<SimpleGallery galleryID="my-test-gallery" :images="images" />
+	<p class="image-note">(Click to view in full screen mode)</p>
+</template>
+
+<style scoped>
+	.image-note {
+		text-align: center;
+		margin-top: 0;
+	}
+</style>
+
+
   

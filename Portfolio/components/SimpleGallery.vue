@@ -4,7 +4,7 @@
 			<a v-for="(image, key) in imagesData" :key="key" :href="image.largeURL" :data-pswp-width="image.width"
 				:data-pswp-height="image.height" target="_blank" rel="noreferrer">
 				<img :src="image.thumbnailURL" :alt="image.alt" />
-				<div class="click-icon">Click to view</div>
+				<button class="click-icon">Click to view</button>
 			</a>
 		</div>
 	</div>
