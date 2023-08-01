@@ -18,7 +18,7 @@ This project was developed collaboratively as part of our final academic assignm
 - **Weather icon** - Display icon based on type of weather  (rainy,cloudy).
 - **Trademark Display** - Sets the popular image from a location as a background (manila,valenzuela).
 
-## Mockup
+## Sample
 
 <div align="center">
   <img src="../assets/img/nimbus-weather.jpg" alt="Nimbus Weather App" 
