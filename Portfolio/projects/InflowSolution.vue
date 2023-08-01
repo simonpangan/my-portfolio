@@ -16,7 +16,7 @@ const images = [
 
 <template>
 	<SimpleGallery galleryID="my-test-gallery" :images="images" />
-	<p class="image-note">(Click to view in full screen mode)</p>
+	<p class="image-note">(Select the image to enable fullscreen mode)</p>
 </template>
 
 <style scoped>
