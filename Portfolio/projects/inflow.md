@@ -46,9 +46,12 @@ The application can analyse the following protocols :
 The application can filter packets according to a protocol.
 
 <InflowSolution />
-## Mockup
 
-<InflowMockup />
+## Contributions
+
+- **Lead Backend Developer** : Spearheaded the backend development, ensuring a robust and efficient system.
+- **Team Coordination** : Managed the team's collaboration by assigning tasks and overseeing progress to achieve project milestones.
+- **Module Integration**: Seamlessly merged my backend work with my groupmates' frontend work, creating a cohesive and functional system.
 
 ## GitHub repository
 

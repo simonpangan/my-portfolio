@@ -4,12 +4,12 @@ import SimpleGallery from '../components/SimpleGallery.vue';
 const images = [
 	{
 		largeURL:
-			'../assets/img/flowchart.png',
+			'../assets/img/inflow.png',
 		thumbnailURL:
-			'../assets/img/flowchart.png',
+			'../assets/img/inflow.png',
 		width: 3500,
 		height: 2500,
-		alt: 'Flowchart Problem'
+		alt: 'Inflow'
 	}
 ]
 </script>
