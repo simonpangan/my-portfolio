@@ -7,7 +7,7 @@ theme: page
   import InflowSample from './InflowSample.vue'
 </script>
 
-# Inflow
+# CharitAble
 
 ## Introduction
 

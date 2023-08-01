@@ -32,6 +32,6 @@ This project was developed collaboratively as part of our final academic assignm
 - Managed the team by delegating tasks among members and conducting progress checks to ensure timely completion.
 - Actively nurtured a collaborative and productive team environment by offering guidance and support to fellow team members when asked.
 
-## GitHub repository
+## GitHub Repository
 
 [View on GitHub](https://github.com/simonpangan/BenildeProjects/tree/master/MobDevtFinalProj)
