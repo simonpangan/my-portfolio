@@ -3,8 +3,8 @@ theme: page
 ---
 
 <script setup>
-  import InflowMockup from './InflowMockup.vue'
-  import InflowSolution from './InflowSolution.vue'
+  import InflowProblem from './InflowProblem.vue'
+  import InflowSample from './InflowSample.vue'
 </script>
 
 # Inflow
@@ -21,7 +21,7 @@ theme: page
 
 The application to be deployed is an online image hosting and resizing solution. It contains 3 parts : [**frontend**](https://github.com/EthanAndreas/CloudAppDeployment/tree/main/web), [**backend**](https://github.com/EthanAndreas/CloudAppDeployment/tree/main/api) and [**worker**](https://github.com/EthanAndreas/CloudAppDeployment/tree/main/api). The **frontend** corresponds to the web interface, where users upload the images they wish to store. The **backend** retrieves the uploaded images and stores them on an S3-type storage service. And finally, the **worker** part allows images to be resized.
 
-<InflowSolution />
+<InflowProblem />
 
 ## Solution
 
@@ -45,7 +45,7 @@ The application can analyse the following protocols :
 
 The application can filter packets according to a protocol.
 
-<InflowSolution />
+<InflowSample />
 
 ## Contributions
 
