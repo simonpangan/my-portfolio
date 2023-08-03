@@ -27,35 +27,29 @@ The application to be deployed is an online image hosting and resizing solution.
 <InflowProblem />
 
 ## Solution
-
-The application has three level of verbosity :
-
-- **1** - Essential informations of the frame (one line by frame)
-- **2** - Essential informations and their complements (one line by layer)
-- **3** - All informations is printed   
-
-The application can capture in two modes :
-
-- **Live** : capture packets on a network interface
-- **Offline** : read packets from a pcap file
-
-The application can analyse the following protocols :
-
-- **Physical** : Ethernet
-- **Network** : ARP, IPv4, IPv6
-- **Transport** : ICMP, SCTP, TCP, UDP
-- **Application** : BOOTP, DHCP, DNS, FTP, HTTP, IMAP, POP3, SMTP, Telnet
-
-The application can filter packets according to a protocol.
-
-<InflowSample />
-
+<!-- https://drive.google.com/file/d/1kGJrBTBDB-MuTbUixDcywOkoRE6yniEG/view?usp=sharing -->
+<!-- [View on GitHub](https://github.com/simonpangan/charitAble) -->
 ## Contributions
 
-- **Lead Backend Developer** : Spearheaded the backend development, ensuring a robust and efficient system.
-- **Team Coordination** : Managed the team's collaboration by assigning tasks and overseeing progress to achieve project milestones.
-- **Module Integration**: Seamlessly merged my backend work with my groupmates' frontend work, creating a cohesive and functional system.
+Throughout this project, I played a key role in both backend and frontend development, as well as conducting comprehensive testing.
 
+### Backend Development:
+
+- Created custom ERC20 smart contract using the OpenZeppelin API
+- Implemented online payments through G-CASH and GrabPay wallets using the Paymongo API, ensuring a seamless donation experience for benefactors.
+- Integrated login functionality with Google accounts, enhancing user accessibility and convenience.
+- Implemented all CRUD (Create, Read, Update, Delete) functionalities, expertly managing data interactions and ensuring optimal system performance.
+### Frontend Development: 
+
+- Connected the application to the Ethereum blockchain using web3.js, enabling real-time interaction with the blockchain.
+- Designed static pages for the FAQ and About Us sections, offering a comprehensive understanding of the charitable platform's mission and operations.
+- Established the connection between the backend and frontend using inertia.js, facilitating smooth and efficient data flow and enhancing the overall user experience.
+
+### Testing
+
+- Documented, created, and executed tests to ensure the code functions as intended and adheres to the project requirements, assuring the reliability and functionality of the application.
+- Presented a compelling PowerPoint and performed a live demonstration to showcase the application's capabilities to stakeholders.
+- Conducted user acceptance testing by creating an online survey and gathering valuable feedback from seven potential app users, thus ensuring the platform's usability and meeting the needs of its intended audience.
 ## GitHub Repository
 
 [View on GitHub](https://github.com/simonpangan/charitAble)
