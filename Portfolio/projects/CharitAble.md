@@ -22,9 +22,19 @@ This project was created as part of the IS Capstone Project requirement, with th
 
 ## Problem
 
-The application to be deployed is an online image hosting and resizing solution. It contains 3 parts : [**frontend**](https://github.com/EthanAndreas/CloudAppDeployment/tree/main/web), [**backend**](https://github.com/EthanAndreas/CloudAppDeployment/tree/main/api) and [**worker**](https://github.com/EthanAndreas/CloudAppDeployment/tree/main/api). The **frontend** corresponds to the web interface, where users upload the images they wish to store. The **backend** retrieves the uploaded images and stores them on an S3-type storage service. And finally, the **worker** part allows images to be resized.
+In our bachelor's thesis titled "The Benefits of A Web-Based Community Platform in Removing the Barriers to Charity among Benefactors in Metro Manila," we investigated the challenges faced by charitable institutions, focusing on transparency issues, lack of information, and interaction (Angeles, Lee, Pangan, & Xu, 2022).
 
-<InflowProblem />
+According to a study conducted by Fidelity Charitable in 2016, two-thirds of Americans who have donated to charities want to give more. However, various barriers hinder their giving experiences. The primary concerns raised by donors are related to nonprofit transparency and understanding the impact of their donations, with 81 percent expressing worry about these factors. They seek information about a nonprofit's credibility and how their philanthropic contributions will be utilized (Fidelity Charitable, 2016).
+
+Moreover, financial resources significantly influence donors' decisions, making three-quarters of donors concerned about how their giving might impact their future financial situation and how much they should set aside for unforeseen personal needs. As a result, more than 8 out of 10 donors are worried about how their donations will be used and if they will truly make a difference (Fidelity Charitable, 2016).
+
+Donors also raise concerns about their relationships with non-profits, affecting their overall charitable experiences. Approximately 75% of donors have questions or worries about their engagement with charities. Specific issues include continued solicitation for donations and the extent to which nonprofits acknowledge their contributions. Additionally, donors struggle with identifying new nonprofits to support, reflecting the importance they place on understanding the impact of their contributions to existing organizations (Fidelity Charitable, 2016).
+
+Ms. Twyla Raros David, Regional Project Manager of Handicap International Federation, points out that transparency issues stem from both technological and human resource perspectives. Donors wish to witness the consequences or effects of their donations to comprehend the impact they have made. Unfortunately, many non-government organizations, particularly small-scale ones, lack the budget and expertise to create tools and gather data that would enable monitoring and evaluation of their impact (Angeles et al., 2022).
+
+Additionally, Ms. Aysha Iftikhar, Founder of Aspin Academy, emphasizes that the problem begins when charity/non-profit organizations fail to publicly display donations, irrespective of the amount. She believes that every donor should feel impactful and appreciated for their contributions, and the lack of such display creates transparency issues, leaving donors feeling uneasy and unrecognized for their efforts (Angeles et al., 2022).
+
+The lack of knowledge among donors is also evident in the fidelity study, as few donors indicate they have trouble finding new nonprofits to support, or that they are interested in doing so. This suggests that donors are primarily interested in better ways to assess their charitable impact by obtaining more information from the groups they presently support. By addressing these concerns and enhancing communication among existing contributors, nonprofits may be able to increase levels of support (Fidelity Charitable, 2016).
 
 ## Solution
 
@@ -55,3 +65,9 @@ Throughout this project, I played a key role in both backend and frontend develo
 ## GitHub Repository
 
 [View on GitHub](https://github.com/simonpangan/charitAble)
+
+## Reference
+
+Angeles, J. I., Lee, J. J. B., Pangan, S. J. U., & Xu, K. C. (2022). The Benefits of A Web-Based Community Platform in Removing the Barriers to Charity among Benefactors in Metro Manila. Bachelor's thesis, De La Salle–College of Saint Benilde Manila.
+
+Fidelity Charitable. (2016). Overcoming Barriers to Giving. Retrieved from https://www.fidelitycharitable.org/content/dam/fc-public/docs/insights/overcoming-barriers-to-giving.pdf
