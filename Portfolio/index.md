@@ -5,15 +5,14 @@ title: Home
 hero:
   name: "Simon Pangan"
   text: "Fullstack Developer"
-  tagline:  Experience top-notch coding and design skills that bring ideas to life."
-  # tagline: Linkedin Headline.
+  tagline: Unlocking Your Vision with Code
   image:
     src: ./assets/img/grad-pic.png
     alt: Simon Pangan
   actions:
     - theme: brand
       text: View all projects
-      link: /projects
+      link: /projects/
     - theme: alt
       text: Resume
       link: /api-examples
