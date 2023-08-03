@@ -17,33 +17,18 @@ theme: page
 - [**Boostrap**](https://getbootstrap.com/)
 - [**jQuery**](https://jquery.com/)
 
-## The Problem
-
-The application to be deployed is an online image hosting and resizing solution. It contains 3 parts : [**frontend**](https://github.com/EthanAndreas/CloudAppDeployment/tree/main/web), [**backend**](https://github.com/EthanAndreas/CloudAppDeployment/tree/main/api) and [**worker**](https://github.com/EthanAndreas/CloudAppDeployment/tree/main/api). The **frontend** corresponds to the web interface, where users upload the images they wish to store. The **backend** retrieves the uploaded images and stores them on an S3-type storage service. And finally, the **worker** part allows images to be resized.
+## Problem
 
 <InflowProblem />
 
+The picture above depicts the current flowchart of Benilde's student information system as of the writing. As a former student, I often found it challenging to decipher the meaning of subject codes. While some subjects are easily recognizable, others remain unclear. Additionally, there is an issue with not knowing whether a subject is a major or minor or what topics it covers for students interested in advanced study.
+
+Furthermore, the system lacks clear information on when a student can retake a failed subject or when they can take a particular subject should they wish not to follow the provided flowchart. This lack of clarity can lead to confusion and delays in academic progress.
+
+Another glaring problem is the lack of timely updates, as evidenced by the top-left section still displaying the student as a freshman despite being in their junior year.
 ## Solution
 
-The application has three level of verbosity :
-
-- **1** - Essential informations of the frame (one line by frame)
-- **2** - Essential informations and their complements (one line by layer)
-- **3** - All informations is printed   
-
-The application can capture in two modes :
-
-- **Live** : capture packets on a network interface
-- **Offline** : read packets from a pcap file
-
-The application can analyse the following protocols :
-
-- **Physical** : Ethernet
-- **Network** : ARP, IPv4, IPv6
-- **Transport** : ICMP, SCTP, TCP, UDP
-- **Application** : BOOTP, DHCP, DNS, FTP, HTTP, IMAP, POP3, SMTP, Telnet
-
-The application can filter packets according to a protocol.
+To address these shortcomings, the academic project "Inflow" was developed. Its main objective is to enhance the student information system flowchart by providing comprehensive subject information that goes beyond mere codes, symbolizing its intent to tackle the issue of "information overflow." With "Inflow," students can access detailed subject descriptions, determine their major or minor status, and explore potential topics for advanced study. Moreover, the system offers clear information on subject retakes and helps students make informed decisions about their academic path. Through these improvements, "Inflow" aims to streamline and optimize the student's academic journey at Benilde.
 
 <InflowSample />
 
