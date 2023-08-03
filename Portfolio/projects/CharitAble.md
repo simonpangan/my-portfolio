@@ -27,8 +27,10 @@ The application to be deployed is an online image hosting and resizing solution.
 <InflowProblem />
 
 ## Solution
-<!-- https://drive.google.com/file/d/1kGJrBTBDB-MuTbUixDcywOkoRE6yniEG/view?usp=sharing -->
-<!-- [View on GitHub](https://github.com/simonpangan/charitAble) -->
+
+To address the problems, the academic project "CharitAble" was developed. If you want to see the project, you can view the PDF below containing the user manual, which was extracted from our original paper.
+
+[View CharitAble User Manual](https://drive.google.com/file/d/1kGJrBTBDB-MuTbUixDcywOkoRE6yniEG/view?usp=sharing)
 ## Contributions
 
 Throughout this project, I played a key role in both backend and frontend development, as well as conducting comprehensive testing.
