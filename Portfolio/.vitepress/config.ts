@@ -28,7 +28,7 @@ export default defineConfig({
           text: 'Projects',
           items: [
             { text: 'My Portfolio v1', link: 'https://simonpangan.github.io/portfolio/'},
-            { text: 'CharitAble', link: '/projects/CharitAble' },
+            { text: 'CharitAble', link: '/projects/charitAble' },
             { text: 'Nimbus Weather Application', link: '/projects/nimbus-weather' },
             { text: 'Inflow', link: '/projects/inflow' }
           ]
