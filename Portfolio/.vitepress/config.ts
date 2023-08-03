@@ -69,10 +69,16 @@ export default defineConfig({
       ]
     }
   },
-  // head: [
-    // ['link', { rel: 'icon', href: '/assets/icons/favicon-16x16.png', sizes: '16x16', type: 'image/png' }],
+  head: [
+    [
+      'meta', { 
+        name: 'keywords', 
+        content: "JAVASCRIPT, TYPESCRIPT, PHP, SQL, LARAVEL, VUE.JS, " + 
+          "MYSQL, SIMON PANGAN, FULL STACK DEVELOPER, FULL STACK, DEVELOPER"
+      }
+    ],
     // ['li nk', { rel: 'icon', href: '/assets/icons/favicon-32x32.png', sizes: '32x32', type: 'image/png' }],
-  // ],
+  ],
   ignoreDeadLinks: true,
   vite: {
     resolve: {
