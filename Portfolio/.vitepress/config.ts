@@ -4,7 +4,10 @@ import { fileURLToPath, URL } from 'node:url'
 export default defineConfig({
   title: "Simon Pangan",
   lang: 'en-US',
-    description: "Simon Pangan portfolio",
+  description: "Simon Pangan: Your Next Full Stack Developer. " + 
+    "As a fresh graduate adept in PHP, JavaScript, TypeScript, Laravel, Vue.js, SQL, and MySQL, " + 
+    "I invite you to witness top-notch coding and design skills in action, " + 
+    "bringing innovative web development projects to life.",
   themeConfig: {
     // siteTitle: "Simon.",
     siteTitle: false,
