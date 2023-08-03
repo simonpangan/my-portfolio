@@ -1,5 +1,6 @@
 ---
 layout: home
+title: Home
 
 hero:
   name: "Simon Pangan"

@@ -3,9 +3,12 @@ import { fileURLToPath, URL } from 'node:url'
 
 export default defineConfig({
   title: "Simon Pangan",
-  description: "Simon Pangan portfolio",
+  lang: 'en-US',
+    description: "Simon Pangan portfolio",
   themeConfig: {
-    siteTitle: "Simon.",
+    // siteTitle: "Simon.",
+    siteTitle: false,
+    logo: '../assets/img/logo.png',
     nav: [
       { text: 'Home', link: '/' },
       { text: 'About Me', link: '/about' },
