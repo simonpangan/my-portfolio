@@ -23,7 +23,7 @@ This project was developed collaboratively as part of our final academic assignm
 <div align="center">
   <img src="../assets/img/nimbus-weather.jpg" alt="Nimbus Weather App" 
     style="width: 80%; max-width:400px"
-  >
+  />
 </div>
 
 ## Contributions
