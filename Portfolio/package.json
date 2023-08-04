@@ -1,8 +1,10 @@
 {
   "scripts": {
     "docs:dev": "vitepress dev",
-    "docs:build": "vitepress build && xcopy /s /e /i \"./assets/img\" \".vitepress\\dist\\assets\\img\"",
-    "docs:preview": "vitepress preview"
+    "docs:build": "vitepress build && npm run copy:assets && npm run copy:favicon",
+    "docs:preview": "vitepress preview",
+    "copy:assets": "xcopy /s /e /i \"./assets/img\" \".vitepress\\dist\\assets\\img\"",
+    "copy:favicon": "xcopy /s /e /i \"../Shared/assets/favicon\" \".vitepress\\dist\\assets\\favicon\""
   },
   "dependencies": {
     "@simonpangan/my-website-css": "^1.1.0",
