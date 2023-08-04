@@ -123,6 +123,12 @@ export default defineConfig({
         href: '/assets/favicon/android-chrome-192x192.png',
       }
     ],
+    [
+      'link', {
+        rel: 'manifest',
+        href: '/site.webmanifest',
+      }
+    ]
   ],
   ignoreDeadLinks: true,
   vite: {
