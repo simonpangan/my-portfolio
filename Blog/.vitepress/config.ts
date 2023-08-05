@@ -12,14 +12,6 @@ async function config() {
     title: "Simon Pangan",
     description: "This is Simon Pangan blogs",
     head: [
-      [
-        "link",
-        {
-          rel: "icon",
-          type: "image/svg",
-          href: "/horse.svg",
-        },
-      ],
       ...head
     ],
     // cleanUrls: "with-subfolders",

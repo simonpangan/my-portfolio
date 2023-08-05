@@ -4,7 +4,7 @@ title: Home
 
 hero:
   name: "Simon Pangan"
-  text: "Fullstack Developer"
+  text: "Full Stack Developer"
   tagline: Unlocking Your Vision with Code
   image:
     src: ./assets/img/grad-pic.png
