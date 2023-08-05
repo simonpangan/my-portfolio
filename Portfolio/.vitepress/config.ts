@@ -1,11 +1,12 @@
 import { defineConfig } from 'vitepress'
-import { fileURLToPath, URL } from 'node:url'
+import { fileURLToPath, URL } from "url";
+import tsconfigPaths from 'vite-tsconfig-paths'
 
-import { head } from "@shared/config"; 
+// import { head } from "@shared/config";  // i don't know why its not working
+import { head } from "../../Shared/config"; 
 
 export default defineConfig({
   title: "Simon Pangan",
-  lang: 'en-US',
   description: "Simon Pangan: Your Next Full Stack Developer. " + 
     "As a fresh graduate adept in PHP, JavaScript, TypeScript, Laravel, Vue.js, SQL, and MySQL, " + 
     "I invite you to witness top-notch coding and design skills in action, " + 
@@ -83,11 +84,7 @@ export default defineConfig({
   ],
   ignoreDeadLinks: true,
   vite: {
-    resolve: {
-      alias: {
-        '@shared': fileURLToPath(new URL('./../../Shared', import.meta.url))
-      },
-    },
+    plugins: [tsconfigPaths()],
     server: {
       fs: {
         allow: ['..'],

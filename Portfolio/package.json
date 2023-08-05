@@ -7,7 +7,9 @@
     "copy:favicon": "xcopy /s /e /i \"../Shared/assets/favicon\" \".vitepress\\dist\\assets\\favicon\""
   },
   "dependencies": {
-    "photoswipe": "^5.3.8"
+    "photoswipe": "^5.3.8",
+    "url": "^0.11.1",
+    "vite-tsconfig-paths": "^4.2.0"
   },
   "devDependencies": {
     "typescript": "^5.1.6",
