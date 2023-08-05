@@ -2,7 +2,8 @@ import { defineConfig } from 'vitepress'
 import { fileURLToPath, URL } from "url";
 import tsconfigPaths from 'vite-tsconfig-paths'
 
-// import { head } from "@shared/config";  // i don't know why its not working
+// import { head } from "@shared/config";  
+// i don't know why its not working its working on css but not on ts?
 import { head } from "../../Shared/config"; 
 
 export default defineConfig({
