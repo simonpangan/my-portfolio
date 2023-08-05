@@ -126,7 +126,7 @@ export default defineConfig({
     [
       'link', {
         rel: 'manifest',
-        href: '/site.webmanifest',
+        href: '/assets/favicon/site.webmanifest',
       }
     ]
   ],
