@@ -6,9 +6,9 @@
     </template>
     <template #doc-after>
       <div>
-        <button @click="back">cd ··</button>
+        <button @click="back">Back</button>
       </div>
-      <Comments />
+      <!-- <Comments /> -->
     </template>
     <!-- Home slot-->
     <template #home-hero-before><HomeHero /> </template>
