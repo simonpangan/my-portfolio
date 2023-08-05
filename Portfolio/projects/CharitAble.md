@@ -3,11 +3,6 @@ theme: page
 prev: false
 ---
 
-<script setup>
-  import InflowProblem from './InflowProblem.vue'
-  import InflowSample from './InflowSample.vue'
-</script>
-
 # CharitAble
 
 ## Introduction

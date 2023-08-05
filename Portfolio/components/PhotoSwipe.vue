@@ -39,7 +39,7 @@ onUnmounted(() => {
 			<template v-else>
 				<a :href="images.largeURL" :data-pswp-width="images.width"
 					:data-pswp-height="images.height" target="_blank" rel="noreferrer">
-					<img :src="images.thumbnailURL"  />
+					<img :src="images.thumbnailURL" :alt="images.alt" />
 				</a>
 			</template>
 		</div>
