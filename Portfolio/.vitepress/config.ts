@@ -2,7 +2,6 @@ import { defineConfig } from 'vitepress'
 import { fileURLToPath, URL } from 'node:url'
 
 import { head } from "@shared/config"; 
-// import { head } from "../../Shared/config";
 
 export default defineConfig({
   title: "Simon Pangan",

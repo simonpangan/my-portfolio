@@ -1,5 +1,12 @@
 export const head = [
 	[
+        "meta",
+        {
+          name: "author",
+          content: "Simon Pangan",
+        },
+      ],
+	[
 		'link', {
 		  rel: 'icon', 
 		  type: "image/x-icon",
@@ -52,3 +59,17 @@ export const head = [
 		}
 	  ]
 ];
+// [
+	// "meta",
+	// {
+	//   property: "og:title",
+	//   content: "Home",
+	// },
+//   ],
+//   [
+	// "meta",
+	// {
+	//   property: "og:description",
+	//   content: "Home of Clark Cui",
+	// },
+//   ],

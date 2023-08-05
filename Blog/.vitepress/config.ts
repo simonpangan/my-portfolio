@@ -1,6 +1,7 @@
 import { getPosts, getPostLength } from "./theme/serverUtils";
 import { buildBlogRSS } from "./theme/rss";
 import { fileURLToPath, URL } from 'node:url'
+import { head } from "@shared/config"; 
 
 async function config() {
   return {
@@ -16,86 +17,7 @@ async function config() {
           href: "/horse.svg",
         },
       ],
-      [
-        "meta",
-        {
-          name: "author",
-          content: "Clark Cui",
-        },
-      ],
-      [
-        "meta",
-        {
-          property: "og:title",
-          content: "Home",
-        },
-      ],
-      [
-        "meta",
-        {
-          property: "og:description",
-          content: "Home of Clark Cui",
-        },
-      ],
-      [
-        'meta', { 
-          name: 'keywords', 
-          content: "JAVASCRIPT, TYPESCRIPT, PHP, SQL, LARAVEL, VUE.JS, " + 
-            "MYSQL, SIMON PANGAN, FULL STACK DEVELOPER, FULL STACK, DEVELOPER"
-        }
-      ],
-      [
-        'link', {
-          rel: 'icon', 
-          type: "image/x-icon",
-          href: '/assets/favicon/favicon.ico',
-        }
-      ],
-      [
-        'link', {
-          rel: 'icon',
-          type: "image/png", 
-          sizes: "16x16",
-          href: '/assets/favicon/favicon-16x16.png',
-        }
-      ],
-      [
-        'link', {
-          rel: 'icon',
-          type: "image/png", 
-          sizes: "32x32",
-          href: '/assets/favicon/favicon-32x32.png',
-        }
-      ],
-      [
-        'link', {
-          rel: 'apple-touch-icon',
-          sizes: "180x180",
-          href: '/assets/favicon/apple-touch-icon.png',
-        }
-      ],
-      [
-        'link', {
-          rel: 'icon',
-          sizes: "512x512",
-          type: "image/png", 
-          href: '/assets/favicon/android-chrome-512x512.png',
-        }
-      ],
-      [
-        'link', {
-          rel: 'icon',
-          sizes: "192x192",
-          type: "image/png", 
-          href: '/assets/favicon/android-chrome-192x192.png',
-        }
-      ],
-      [
-        'link', {
-          rel: 'manifest',
-          href: '/site.webmanifest',
-        }
-      ]
+      ...head
     ],
     // cleanUrls: "with-subfolders",
     lastUpdated: false,
