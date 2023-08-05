@@ -17,6 +17,8 @@ async function config() {
     // cleanUrls: "with-subfolders",
     lastUpdated: false,
     themeConfig: {
+      logo: '../assets/img/logo.png',
+      siteTitle: false,
       // repo: "clark-cui/homeSite",
       avator:'/grad-pic.png',
       search: {
