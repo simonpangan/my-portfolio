@@ -1,7 +1,10 @@
 import { getPosts, getPostLength } from "./theme/serverUtils";
 import { buildBlogRSS } from "./theme/rss";
 import { fileURLToPath, URL } from 'node:url'
-import { head } from "@shared/config"; 
+
+// import { head } from "@shared/config"; 
+// alias working in css but not on ts? don't know why
+import { head } from "../../Shared/config";
 
 async function config() {
   return {

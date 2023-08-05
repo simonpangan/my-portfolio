@@ -4,7 +4,7 @@ import Tags from "./components/Tags.vue";
 import MyLayout from "./components/MyLayout.vue";
 import "./custom.css";
 
-import '@simonpangan/my-website-css/index.css';
+import '@shared/assets/index.css';
 
 export default {
   ...DefaultTheme,
