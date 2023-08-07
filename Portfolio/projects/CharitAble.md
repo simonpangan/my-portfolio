@@ -28,7 +28,7 @@ Additionally, Ms. Aysha Iftikhar, Founder of Aspin Academy, emphasizes that the 
 The lack of information among donors is also evident in the Fidelity Charitable study, as some donors express difficulty finding new nonprofits to support or show interest in doing so. This suggests that donors are primarily interested in better ways to assess their charitable impact by obtaining more information from the groups they presently support. By addressing these concerns and enhancing communication among existing donors, nonprofits may be able to increase levels of support (Fidelity Charitable, 2016).
 ## Solution
 
-To address the problems, the academic project “CharitAble” was developed. If you want to see the project, you can view the PDF below containing the application’s list of features and functions, as well as the user manual, which was extracted from the original paper. You can also see our presentation during our defense.
+To address the problems, the academic project “CharitAble” was developed. If you want to see the project, you can view the PDF below containing the application’s list of features and functions, as well as the user manual, which was extracted from the original paper. You can also view our presentation during our defense.
 
 [View CharitAble F&F](https://drive.google.com/file/d/1P_MNWDyEHT4KkzTTh3VIFBONSDpwsR9v/view?usp=sharing)
 
