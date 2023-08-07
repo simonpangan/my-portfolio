@@ -52,7 +52,7 @@ Throughout this project, I played a key role in both backend and frontend develo
 ### Testing
 
 - Documented, created, and executed tests to ensure the code functions as intended and adheres to the project requirements, assuring the reliability and functionality of the application.
-- Presented a compelling PowerPoint and performed a live demonstration to showcase the application's capabilities to stakeholders.
+- [Presented a compelling PowerPoint](https://www.canva.com/design/DAFGj4u0F2U/MuMBM900AAQV2ua5nCz1xQ/edit) and performed a live demonstration to showcase the application's capabilities to stakeholders.
 - Conducted user acceptance testing by creating an online survey and gathering valuable feedback from seven potential app users, thus ensuring the platform's usability and meeting the needs of its intended audience.
 ## GitHub Repository
 
