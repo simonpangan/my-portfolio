@@ -28,11 +28,13 @@ Additionally, Ms. Aysha Iftikhar, Founder of Aspin Academy, emphasizes that the 
 The lack of information among donors is also evident in the Fidelity Charitable study, as some donors express difficulty finding new nonprofits to support or show interest in doing so. This suggests that donors are primarily interested in better ways to assess their charitable impact by obtaining more information from the groups they presently support. By addressing these concerns and enhancing communication among existing donors, nonprofits may be able to increase levels of support (Fidelity Charitable, 2016).
 ## Solution
 
-To address the problems, the academic project “CharitAble” was developed. If you want to see the project, you can view the PDF below containing the application’s list of features and functions, as well as the user manual, which was extracted from the original paper.
+To address the problems, the academic project “CharitAble” was developed. If you want to see the project, you can view the PDF below containing the application’s list of features and functions, as well as the user manual, which was extracted from the original paper. You can also see our presentation during our defense.
 
 [View CharitAble F&F](https://drive.google.com/file/d/1P_MNWDyEHT4KkzTTh3VIFBONSDpwsR9v/view?usp=sharing)
 
 [View CharitAble User Manual](https://drive.google.com/file/d/1kGJrBTBDB-MuTbUixDcywOkoRE6yniEG/view?usp=sharing)
+
+[View CharitAble Presentation](https://www.canva.com/design/DAFq2_tKydU/L8uatS3Wh41nr42Mg-kIUQ/edit?utm_content=DAFq2_tKydU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 ## Contributions
 
 Throughout this project, I played a key role in both backend and frontend development, as well as conducting comprehensive testing.
@@ -58,7 +60,7 @@ Throughout this project, I played a key role in both backend and frontend develo
 
 [View on GitHub](https://github.com/simonpangan/charitAble)
 
-## Reference
+## References
 
 Angeles, J. I., Lee, J. J. B., Pangan, S. J. U., & Xu, K. C. (2022). The Benefits of A Web-Based Community Platform in Removing the Barriers to Charity among Benefactors in Metro Manila. Bachelor's thesis, De La Salle–College of Saint Benilde Manila.
 
