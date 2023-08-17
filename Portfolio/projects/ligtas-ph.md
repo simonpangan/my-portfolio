@@ -9,7 +9,7 @@ theme: page
 Ligtas.ph is a crowdsourced, map-based web application that enables users to report and view minor crimes. The proposed application aims to educate and inform Filipinos about the threats their communities face, while also providing the local government and police with improved statistical data to enhance public services for all Filipinos. The project is based on the following technologies :
 
 - [**ASP.NET**](https://dotnet.microsoft.com/en-us/apps/aspnet/)
-- [**Boostrap**](https://getbootstrap.com/)
+- [**Bootstrap**](https://getbootstrap.com/)
 - [**jQuery**](https://jquery.com/)
 
 ## Features

@@ -13,7 +13,7 @@ theme: page
 "Inflow" was created as the final academic project for the web development subject, utilizing the Laravel framework. The primary goal of this project is to enhance Benilde's student information system flowchart by providing more comprehensive information about each subject, going beyond the mere display of subject codes. The name "Inflow" is derived from "information overflow," symbolizing the project's intent. The project is based on the following technologies :
 
 - [**Laravel**](https://laravel.com/)
-- [**Boostrap**](https://getbootstrap.com/)
+- [**Bootstrap**](https://getbootstrap.com/)
 - [**jQuery**](https://jquery.com/)
 
 ## Problem
