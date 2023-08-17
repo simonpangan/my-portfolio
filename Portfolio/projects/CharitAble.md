@@ -7,7 +7,7 @@ prev: false
 
 ## Introduction
 
-This project was created as part of the IS Capstone Project requirement, with the primary goal of developing a web application that removes benefactors' barriers to charitable giving, such as transparency, lack of information, and interaction. The project earned the Best Capstone Award for its accomplishments.
+This project was created as part of the IS Capstone Project requirement, with the primary goal of developing a web application that removes benefactors' barriers to charitable giving, such as transparency, lack of information, and interaction. The project earned the Best Capstone Award for its accomplishments. The project is based on the following technologies :
 
 - [**Laravel**](https://laravel.com/)
 - [**Boostrap**](https://getbootstrap.com/)
