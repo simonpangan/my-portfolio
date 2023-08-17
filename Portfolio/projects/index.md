@@ -14,4 +14,4 @@ prev: false
 | [CharitAble](/projects/CharitAble) | This project was created with the primary goal of developing a web application that removes barriers to charitable giving for benefactors, such as transparency, lack of information, and interaction. |
 | [Nimbus Weather Application](/projects/nimbus-weather) | An Android application that focuses on determining the weather information of the user's location. |
 | [Inflow](/projects/inflow) | "Inflow" is an academic web development project designed to enhance Benilde's student information system by providing comprehensive information about each subject, going beyond simple subject codes. |
-| [Ligtas.PH](/projects/ligtas-ph) | Ligtas.PH is an interactive map-based platform where Filipinos can contribute to community safety by reporting minor crimes and emergencies. The system empowers to submit incidents and access recent local data.|
+| [Ligtas.PH](/projects/ligtas-ph) | Ligtas.PH is an interactive map-based platform where Filipinos can contribute to community safety by reporting minor crimes and emergencies. The system empowers users to submit incidents and access recent local data.|
