@@ -9,7 +9,9 @@ prev: false
 
 | Project | Description | 
 | --- | --- |
+| My Current Portfolio | Introducing my very first portfolio, built on top of React and Bootstrap. Explore a collection of my blogs, skills and awards|
 | [My Portfolio v1](https://simonpangan.github.io/portfolio/) | Introducing my very first portfolio, built on top of React and Bootstrap. Explore a collection of my blogs, skills and awards|
 | [CharitAble](/projects/CharitAble) | This project was created with the primary goal of developing a web application that removes barriers to charitable giving for benefactors, such as transparency, lack of information, and interaction. |
 | [Nimbus Weather Application](/projects/nimbus-weather) | An Android application that focuses on determining the weather information of the user's location. |
 | [Inflow](/projects/inflow) | "Inflow" is an academic web development project designed to enhance Benilde's student information system by providing comprehensive information about each subject, going beyond simple subject codes. |
+| [Ligtas.PH](/projects/ligtas-ph) | Ligtas.PH is an interactive map-based platform where Filipinos can contribute to community safety by reporting minor crimes and emergencies. The system empowers to submit incidents and access recent local data.|

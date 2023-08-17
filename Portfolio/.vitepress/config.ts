@@ -34,7 +34,8 @@ export default defineConfig({
             { text: 'My Portfolio v1', link: 'https://simonpangan.github.io/portfolio/'},
             { text: 'CharitAble', link: '/projects/charitAble' },
             { text: 'Nimbus Weather Application', link: '/projects/nimbus-weather' },
-            { text: 'Inflow', link: '/projects/inflow' }
+            { text: 'Inflow', link: '/projects/inflow' },
+            { text: 'Ligtas.PH', link: '/projects/ligtas-ph' }
           ]
         }
       ],
