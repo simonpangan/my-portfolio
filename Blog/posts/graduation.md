@@ -27,3 +27,12 @@ Additionally, I obtained a spreadsheet from over five groups detailing the feedb
 This led to receiving good feedback from our panelists, which was music to my ears, considering how it turned into a heated discussion during the first thesis defense. As a result, the thesis was nominated for the “best capstone” award and eventually won it.
 
 Now, as I step into this new chapter, I am excited to leverage the skills and insights gained during my college years. Heartfelt gratitude to my professors, peers, friends, and family, who have been my pillars of support. Here's to embracing the future with enthusiasm and the determination to make a positive impact! 🌟🚀
+
+
+<img src="../assets/img/graduation/pic1.jpg" alt="Graduation Pic 1"/>
+<br />
+<br />
+<img src="../assets/img/graduation/pic2.jpg" alt="Graduation Pic 2"/>
+<br />
+<br />
+<img src="../assets/img/graduation/pic3.jpg" alt="Graduation Pic 3"/>
