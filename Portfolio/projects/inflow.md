@@ -52,7 +52,7 @@ To address these shortcomings, the academic project "Inflow" was developed. Its 
 
 - **Lead Backend Developer** : Lead the backend development, ensuring a robust and efficient system.
 - **Team Coordination** : Managed the team's collaboration by assigning tasks and overseeing progress to achieve project milestones.
-- **Module Integration**: Seamlessly merged my backend work with my groupmates' frontend work, creating a cohesive and functional system.
+- **Module Integration**: Integrated my work with contributions from my groupmates, creating a cohesive and functional system.
 
 ## GitHub Repository
 
