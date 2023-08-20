@@ -35,6 +35,8 @@ To address the problems, the academic project “CharitAble” was developed. If
 [View CharitAble User Manual](https://drive.google.com/file/d/1kGJrBTBDB-MuTbUixDcywOkoRE6yniEG/view?usp=sharing)
 
 [View CharitAble Presentation](https://www.canva.com/design/DAFq2_tKydU/L8uatS3Wh41nr42Mg-kIUQ/edit?utm_content=DAFq2_tKydU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+
+Following the development and comprehensive documentation of CharitAble, a user acceptance testing with 29 participants was conducted upon completion of the project. The results indicated that 86.2% of users found the platform to be highly effective in terms of removing barriers to charity, while 15% reported a moderate level of effectiveness. Furthermore, 86.2% of the respondents stated that donating to and using the platform is easy and straightforward. This overwhelmingly positive feedback underscores the success of the CharitAble project in achieving its intended goals.
 ## Contributions
 
 Throughout this project, I played a key role in both backend and frontend development, as well as conducting comprehensive testing.
