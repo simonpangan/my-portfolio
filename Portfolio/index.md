@@ -13,9 +13,9 @@ hero:
     - theme: brand
       text: View all projects
       link: /projects/
-    # - theme: alt
-    #   text: Resume
-    #   link: /api-examples
+    - theme: alt
+      text: Resume
+      link: https://drive.google.com/file/d/1mKoPjqXq0lDdz9FfdqaWHR9vZAR7CDzS/view
 
 features:
   - icon: 
