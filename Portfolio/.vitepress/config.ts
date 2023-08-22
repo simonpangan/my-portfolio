@@ -58,7 +58,8 @@ export default defineConfig({
     },
   },
   transformHead({ assets }) {
-    const myFontFile = assets.find(file => /\w+\.ttf/)
+    // adjust the regex accordingly to match your font
+    const myFontFile = assets.find(file => /quicksand(-var)?\.ttf|font-name\.\w+\.woff2/)
     if (myFontFile) {
       return [
         [
@@ -67,7 +68,7 @@ export default defineConfig({
             rel: 'preload',
             href: myFontFile,
             as: 'font',
-            type: 'font/ttf',
+            type: 'font/woff2',
             crossorigin: ''
           }
         ]
