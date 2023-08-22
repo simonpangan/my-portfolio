@@ -59,7 +59,7 @@ export default defineConfig({
   },
   transformHead({ assets }) {
     // adjust the regex accordingly to match your font
-    const myFontFile = assets.find(file => /quicksand(-var)?\.ttf|font-name\.\w+\.woff2/)
+    const myFontFile = assets.find(file => /quicksand(-var)?\.ttf/)
     if (myFontFile) {
       return [
         [
