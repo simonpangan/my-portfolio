@@ -58,16 +58,30 @@ export default defineConfig({
     },
   },
   transformHead({ assets }) {
-    const myFontFile = assets.find(file => /quicksand(-var)?\.\w+\.woff2/)
-    if (myFontFile) {
+    /*
+      const assets = [
+        '/assets/nimbus-weather.4351143d.jpg',
+        '/assets/ligtas-ph.c7ccbb1d.png',
+        '/assets/quicksand.c1e54885.ttf',
+        '/assets/quicksand-var.06927fae.ttf'
+      ];
+    */
+    const fontRegex = /\/assets\/quicksand-var\.\w+\.ttf/;
+
+    const matchingUrls = assets.filter(url => fontRegex.test(url));
+    
+    //matchingUrls will always return array
+    const fontFile = matchingUrls.length > 0 ? matchingUrls[0] : '';
+    
+    if (fontFile) {
       return [
         [
           'link',
           {
             rel: 'preload',
-            href: myFontFile,
+            href: fontFile,
             as: 'font',
-            type: 'font/woff2',
+            type: 'font/ttf',
             crossorigin: ''
           }
         ]
