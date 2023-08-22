@@ -86,7 +86,12 @@ export default defineConfig({
   ],
   ignoreDeadLinks: true,
   vite: {
-    plugins: [tsconfigPaths()],
+    resolve: {
+      alias: {
+        '@shared': fileURLToPath(new URL('./../../Shared', import.meta.url))
+      },
+    },
+    // plugins: [tsconfigPaths()],
     server: {
       fs: {
         allow: ['..'],
