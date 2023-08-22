@@ -57,6 +57,23 @@ export default defineConfig({
       copyright: 'Copyright © 2023-present | Simon Pangan'
     },
   },
+  transformHead({ assets }) {
+    const myFontFile = assets.find(file => /quicksand(-var)?\.\w+\.woff2/)
+    if (myFontFile) {
+      return [
+        [
+          'link',
+          {
+            rel: 'preload',
+            href: myFontFile,
+            as: 'font',
+            type: 'font/woff2',
+            crossorigin: ''
+          }
+        ]
+      ]
+    }
+  },
   head: [
     [
       'meta', { 
