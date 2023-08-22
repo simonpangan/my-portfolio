@@ -57,24 +57,6 @@ export default defineConfig({
       copyright: 'Copyright © 2023-present | Simon Pangan'
     },
   },
-  transformHead({ assets }) {
-    // adjust the regex accordingly to match your font
-    const myFontFile = assets.find(file => /quicksand(-var)?\.ttf/)
-    if (myFontFile) {
-      return [
-        [
-          'link',
-          {
-            rel: 'preload',
-            href: myFontFile,
-            as: 'font',
-            type: 'font/woff2',
-            crossorigin: ''
-          }
-        ]
-      ]
-    }
-  },
   head: [
     [
       'meta', { 
