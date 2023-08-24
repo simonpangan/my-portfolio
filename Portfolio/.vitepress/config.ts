@@ -31,6 +31,7 @@ export default defineConfig({
         {
           text: 'Projects',
           items: [
+            { text: 'Bandersnatch', link: '/projects/bandersnatch' },
             { text: 'My Portfolio v1', link: 'https://simonpangan.github.io/portfolio/'},
             { text: 'CharitAble', link: '/projects/charitAble' },
             { text: 'Nimbus Weather Application', link: '/projects/nimbus-weather' },

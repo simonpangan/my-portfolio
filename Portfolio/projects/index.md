@@ -9,6 +9,7 @@ prev: false
 
 | Project | Description | 
 | --- | --- |
+| [Bandersnatch](/projects/bandersnatch) | Bandersnatch is a website created to facilitate interactive theater experiences by allowing the audience to choose the next scenario they would like to see. The project is currently in development and has not yet been completed.|
 | [My Current Portfolio](https://simonpangan.netlify.app/) | Introducing the second version of my portfolio, right here on this website. Created using Vue and Vite for a fresh and modern look.|
 | [My Portfolio v1](https://simonpangan.github.io/portfolio/) | Introducing my very first portfolio, built on top of React and Bootstrap. Explore a collection of my blogs, skills and awards|
 | [CharitAble](/projects/CharitAble) | This project was created with the primary goal of developing a web application that removes barriers to charitable giving for benefactors, such as transparency, lack of information, and interaction. |

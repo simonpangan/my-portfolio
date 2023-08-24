@@ -1,29 +1,17 @@
 {
-  "hash": "1e21a3b3",
-  "browserHash": "740b1340",
+  "hash": "58b16321",
+  "browserHash": "fdc8753c",
   "optimized": {
     "vue": {
       "src": "../../../node_modules/vue/dist/vue.runtime.esm-browser.js",
       "file": "vue.js",
-      "fileHash": "020da8cd",
+      "fileHash": "4a596131",
       "needsInterop": false
     },
     "vitepress > @vue/devtools-api": {
       "src": "../../../node_modules/@vue/devtools-api/lib/esm/index.js",
       "file": "vitepress___@vue_devtools-api.js",
-      "fileHash": "3fea5cf9",
-      "needsInterop": false
-    },
-    "photoswipe/lightbox": {
-      "src": "../../../node_modules/photoswipe/dist/photoswipe-lightbox.esm.js",
-      "file": "photoswipe_lightbox.js",
-      "fileHash": "51ee2bc0",
-      "needsInterop": false
-    },
-    "photoswipe": {
-      "src": "../../../node_modules/photoswipe/dist/photoswipe.esm.js",
-      "file": "photoswipe.js",
-      "fileHash": "31f20113",
+      "fileHash": "33744361",
       "needsInterop": false
     }
   },
