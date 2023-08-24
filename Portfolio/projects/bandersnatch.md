@@ -10,6 +10,7 @@ prev: false
 Bandersnatch is a website created to facilitate interactive theater experiences by allowing the audience to choose the next scenario they would like to see. The project is currently in development and has not yet been completed. The project is based on the following technologies :
 
 - [**Laravel**](https://laravel.com/)
+- [**XState**](https://xstate.js.org/)
 - [**React.JS**](https://react.dev/)
 - [**Ant Design**](https://ant.design/)
 - [**Tailwind CSS**](https://tailwindcss.com/)
