@@ -32,6 +32,17 @@ Update coming soon...
 Below, you will find a snapshot of the project's current status. The showcased content provides an insight into the project's latest developments and progress.
 
 <div align="center">
+  <img src="../assets/img/bandersnatch/home.png" alt="Bandersnatch landing Page" 
+    style="width: 100%"
+  />
+</div>
+
+<center>
+	(landing page)
+</center>
+<br />
+
+<div align="center">
   <img src="../assets/img/bandersnatch/admin.png" alt="Bandersnatch admin page" 
     style="width: 100%"
   />
@@ -49,4 +60,15 @@ Below, you will find a snapshot of the project's current status. The showcased c
 </div>
 <center>
 	(audience page)
+</center>
+
+<br />
+
+<div align="center">
+  <img src="../assets/img/bandersnatch/audience-login.png" alt="Bandesnatch audience login page" 
+    style="width: 100%"
+  />
+</div>
+<center>
+	(audience login)
 </center>
