@@ -19,10 +19,10 @@ hero:
 
 features:
   - icon: 
-      alt: laravel logo
-      src: ./assets/img/laravel-logo.png
-    title: Laravel
-    details: Skilled in leveraging the power of Laravel to develop feature-rich and efficient web applications.    
+      alt: backend logo
+      src: ./assets/img/backend-logo.png
+    title: Backend
+    details: Skilled in leveraging the power of Laravel & .NET to develop feature-rich and efficient web applications.    
   - icon:
       alt: mysql logo
       src: ./assets/img/mysql-logo.png
