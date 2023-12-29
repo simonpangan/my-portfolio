@@ -29,19 +29,20 @@ export default defineConfig({
     sidebar: {
       '/projects/': [
         {
+          text: 'Work Projects',
+          items: [
+            { text: 'Pocketbook Agency', link: 'https://pocketbookagency.com' },
+          ]
+        },
+        {
           text: 'Personal Projects',
           items: [
+            { text: 'Bandersnatch', link: '/projects/bandersnatch' },
             { text: 'My Portfolio v1', link: 'https://simonpangan.github.io/portfolio/'},
             { text: 'CharitAble', link: '/projects/charitAble' },
             { text: 'Nimbus Weather Application', link: '/projects/nimbus-weather' },
             { text: 'Inflow', link: '/projects/inflow' },
             { text: 'Ligtas.PH', link: '/projects/ligtas-ph' }
-          ]
-        },
-        {
-          text: 'Freelance Projects',
-          items: [
-            { text: 'Bandersnatch', link: '/projects/bandersnatch' },
           ]
         }
       ],
