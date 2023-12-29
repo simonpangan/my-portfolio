@@ -9,7 +9,7 @@ prev: false
 
 | Work Project                                            | Description | 
 |-------------------------------------------------------------| --- |
-| [Pocketbook Agency](https://www.pocketbookagency.com/) | Bandersnatch is a website created to facilitate interactive theater experiences by allowing the audience to choose the next scenario they would like to see. The project is currently in development and has not yet been completed.|
+| [Pocketbook Agency](/projects/pocketbook-agency) | Pocketbook Agency is a modern recruiting firm built for the needs of today and anticipates the demands of tomorrow|
 
 <br />
 
