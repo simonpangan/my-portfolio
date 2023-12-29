@@ -31,7 +31,7 @@ export default defineConfig({
         {
           text: 'Work Projects',
           items: [
-            { text: 'Pocketbook Agency', link: 'https://pocketbookagency.com' },
+            { text: 'Pocketbook Agency', link: '/projects/pocketbook-agency' },
           ]
         },
         {
