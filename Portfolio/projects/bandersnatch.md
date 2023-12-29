@@ -43,32 +43,103 @@ Below, you will find a snapshot of the project's current status. The showcased c
 <br />
 
 <div align="center">
-  <img src="../assets/img/bandersnatch/admin.png" alt="Bandersnatch admin page" 
+  <img src="../assets/img/bandersnatch/password.png" alt="Bandersnatch Audience Password" 
     style="width: 100%"
   />
 </div>
 
-<center>
-	(admin page)
-</center>
-<br />
-
-<div align="center">
-  <img src="../assets/img/bandersnatch/audience.png" alt="Bandesnatch audience page" 
-    style="width: 100%"
-  />
-</div>
-<center>
-	(audience page)
-</center>
-
-<br />
-
-<div align="center">
-  <img src="../assets/img/bandersnatch/audience-login.png" alt="Bandesnatch audience login page" 
-    style="width: 100%"
-  />
-</div>
 <center>
 	(audience login)
 </center>
+<br />
+
+<div align="center">
+  <img src="../assets/img/bandersnatch/waiting.png" alt="Bandersnatch Audience Waiting for the admin to start" 
+    style="width: 100%"
+  />
+</div>
+
+<center>
+	(audience waiting for the admin to start the questions)
+</center>
+<br />
+
+<div align="center">
+  <img src="../assets/img/bandersnatch/questions.png" alt="Bandersnatch Sample Question" 
+      style="width: 100%"
+    />
+</div>
+
+<center>
+	(sample question)
+</center>
+<br />
+
+<div align="center">
+  <img src="../assets/img/bandersnatch/questions-done.png" alt="Bandersnatch After Answering" 
+      style="width: 100%"
+    />
+</div>
+
+<center>
+	(after answering)
+</center>
+<br />
+
+<div align="center">
+  <img src="../assets/img/bandersnatch/end.png" alt="Bandersnatch Audience Password" 
+    style="width: 100%"
+  />
+</div>
+
+<center>
+	(end page after the questions)
+</center>
+<br />
+
+
+<!-- Admin -->
+
+<div align="center">
+  <img src="../assets/img/bandersnatch/admin-login.png" alt="Bandersnatch admin login" 
+    style="width: 100%"
+  />
+</div>
+
+<center>
+	(admin login)
+</center>
+<br />
+
+<div align="center">
+  <img src="../assets/img/bandersnatch/admin-start.png" alt="Bandersnatch admin login" 
+    style="width: 100%"
+  />
+</div>
+
+<center>
+	(start)
+</center>
+<br />
+
+<div align="center">
+  <img src="../assets/img/bandersnatch/admin-question.png" alt="Bandersnatch admin login" 
+    style="width: 100%"
+  />
+</div>
+
+<center>  
+	(start)
+</center>
+<br />
+
+<div align="center">
+  <img src="../assets/img/bandersnatch/admin-done.png" alt="Bandersnatch admin login" 
+    style="width: 100%"
+  />
+</div>
+
+<center>
+	(start)
+</center>
+<br />
