@@ -15,7 +15,7 @@ Over the past few years, I have been involved in several noteworthy programming 
 
 In addition to my project work, I am also a freelance developer, working on various small to medium-sized projects. One aspect I particularly enjoy is collaborating with students from different schools to create their thesis or final projects. It's rewarding to be part of academic journey and contribute to their success.
 
-It's worth noting that my freelance projects are not listed in the projects section due to privacy reasons. I respect the confidentiality of the clients I work with, and ensuring their data  private is of utmost importance to me.
+It's worth noting that some of my freelance projects are not listed in the projects section due to privacy reasons. I respect the confidentiality of the clients I work with, and ensuring their data  private is of utmost importance to me.
 ## What do I like?
 
 Apart from the Vue.JS, I also have an interest in using React. Although I find Vue.js easier to work with and prefer using it for most projects. I'm open to exploring other technologies and frameworks. In fact, I plan to study the .NET framework in the future to expand my skill set.
