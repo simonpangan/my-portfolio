@@ -1,6 +1,5 @@
 ---
 theme: page
-prev: false
 ---
 
 # Bandersnatch
