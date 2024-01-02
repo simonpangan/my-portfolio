@@ -13,6 +13,7 @@ Pocketbook Agency, which is a modern recruiting firm, is one of the clients of m
 - Developed and implemented the Press, and Blog Page features, enhancing the functionality and user experience of the project.
 - Recreated the Job List page, originally developed by previous developers, to enhance performance, structure the application more effectively for easier maintenance, and incorporate modern technologies.
 - Optimized the performance of the Job List Page, reducing the Largest Contentful Paint (LCP) loading time from [23 seconds](https://drive.google.com/file/d/1GIUaKjNvQ6lKgBPv1erAI7VPLld6FpA7/view?usp=sharing)  to [935 milliseconds](https://drive.google.com/file/d/1ZUS89G3S7Oi3kCKiyBUYlBgz1lAk9Brz/view?usp=sharing) by implementing industry best practices.
+- Integrated the WordPress app with the Bullhorn API, enabling potential applicants to submit their applications.
 
 ## Technologies
 
