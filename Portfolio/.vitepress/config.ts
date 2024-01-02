@@ -38,8 +38,8 @@ export default defineConfig({
           text: 'Personal Projects',
           items: [
             { text: 'Bandersnatch', link: '/projects/bandersnatch' },
+            { text: 'CharitAble', link: '/projects/charitable' },
             { text: 'My Portfolio v1', link: 'https://simonpangan.github.io/portfolio/'},
-            { text: 'CharitAble', link: '/projects/charitAble' },
             { text: 'Nimbus Weather Application', link: '/projects/nimbus-weather' },
             { text: 'Inflow', link: '/projects/inflow' },
             { text: 'Ligtas.PH', link: '/projects/ligtas-ph' }
