@@ -19,8 +19,8 @@ Pocketbook Agency, which is a modern recruiting firm, is one of the clients of m
 
 For the project, I leveraged my knowledge in the following: 
 
-- [**Wordpress**](https://wordpress.org/)
-- [**Next.JS**](https://nextjs.org/)
-- [**Bootstrap**](https://getbootstrap.com/)
-- [**jQuery**](https://jquery.com/)	
-- [**Bullhorn API**](https://www.bullhorn.com/)
+- [**WordPress**](https://wordpress.org/): The main technology used for the project.
+- [**Next.js**](https://nextjs.org/): Solely employed on the job list page, seamlessly connected to the WordPress app via iFrame.
+- [**Bootstrap**](https://getbootstrap.com/): Utilized for the design of the job list page.
+- [**jQuery**](https://jquery.com/): Implemented in every page of the app.
+- [**Bullhorn API**](https://www.bullhorn.com/): Integrated into the job application functionality on the job list page.

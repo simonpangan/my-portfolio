@@ -3,7 +3,7 @@ theme: page
 ---
 
 <script setup>
-  import Inflow from './Inflow.vue'
+  import ClickableImage from './ClickableImage.vue'
 </script>
 
 # Inflow
@@ -18,7 +18,7 @@ theme: page
 
 ## Problem
 
-<Inflow :images="{
+<ClickableImage :images="{
 		largeURL:
 			'../assets/img/flowchart.png',
 		thumbnailURL:
@@ -40,7 +40,7 @@ To validate these concerns, we conducted a survey with 40 Benildean student part
 
 To address these shortcomings, the academic project "Inflow" was developed. Its main objective is to enhance the student information system flowchart by providing comprehensive subject information that goes beyond mere codes, symbolizing its intent to tackle the issue of "information overflow." With "Inflow," students can access detailed subject descriptions, determine their major or minor status, and explore potential topics for advanced study. Moreover, the system offers clear information on subject retakes and helps students make informed decisions about their academic path. Through these improvements, "Inflow" aims to streamline and optimize the student's academic journey at Benilde.
 
-<Inflow :images="{
+<ClickableImage :images="{
 		largeURL:
 			'../assets/img/inflow-sample.png',
 		thumbnailURL:

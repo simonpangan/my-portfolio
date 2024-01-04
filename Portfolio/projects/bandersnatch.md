@@ -22,6 +22,12 @@ Interactive questions and answers can be managed using tools like Google Forms o
 	
 ## Sample
 
+Bandersnatch interactive questions:
+
+<img src="../assets/img/bandersnatch/questions.jpg" alt="Bandersnatch Questions" 
+  style="width: 100%"
+/>
+
 Below are screenshots of the final output:
 
 <template v-for="item in pics">
@@ -38,6 +44,7 @@ Below are screenshots of the final output:
 </template>
 
 <script setup>
+import ClickableImage from "./ClickableImage.vue";
 import { ref } from 'vue'
 
 const pics = ref([
